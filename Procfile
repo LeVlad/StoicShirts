@@ -1,0 +1,1 @@
+web: gunicorn stoic_shirts_2022.wsgi.application
