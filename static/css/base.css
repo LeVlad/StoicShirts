@@ -4,11 +4,10 @@ hmtl {
 body {
     background-color:azure;
 }
-
-.col-12 col-lg-4 my-auto py-1 py-lg-0 {
-    display:block;
-    position: relative;
+.main-logo-link {
+    width: fit-content;
 }
+
 
 /* -------------------------------- Media Queries */
 
