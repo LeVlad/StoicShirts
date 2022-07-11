@@ -9,6 +9,13 @@ body {
 .main-logo-link {
     width: fit-content;
 }
+.container-fluid {
+    align-self: center;
+}
+
+.navbar-brand {
+    text-transform: uppercase;
+}
 
 
 /* -------------------------------- Media Queries */
