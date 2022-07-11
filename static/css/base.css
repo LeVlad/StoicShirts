@@ -3,6 +3,8 @@ hmtl {
 }
 body {
     background-color:azure;
+    background: url('/media/BG-Shirt.png') no-repeat center center fixed;
+    height: calc(100vh - 164px);
 }
 .main-logo-link {
     width: fit-content;
