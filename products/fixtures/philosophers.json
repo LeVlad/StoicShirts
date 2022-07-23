@@ -1,0 +1,41 @@
+[{
+    "pk":1,
+    "model":"products.philosopher",
+    "fields":{
+       "name":"arthur_schopenhauer",
+       "friendly_name":"Arthur Schopenhauer"
+    }
+ },
+{
+    "pk":2,
+    "model":"products.philosopher",
+    "fields":{
+       "name":"seneca",
+       "friendly_name":"Seneca"
+    }
+ },
+{
+    "pk":3,
+    "model":"products.philosopher",
+    "fields":{
+       "name":"marcus_aurelius",
+       "friendly_name":"Marcus Aurelius"
+    }
+ },
+{
+    "pk":4,
+    "model":"products.philosopher",
+    "fields":{
+       "name":"immanuel_kant",
+       "friendly_name":"Immanuel Kant"
+    }
+ },
+{
+    "pk":5,
+    "model":"products.philosopher",
+    "fields":{
+       "name":"plato",
+       "friendly_name":"Plato"
+    }
+ }
+]

@@ -4,14 +4,27 @@ class Category(models.Model):
     name = models.CharField(max_length=254)
     friendly_name = models.CharField(max_length=254, null=True, blank=True)
 
-def __self__(self):
-    return self.name
+    def __self__(self):
+        return self.name
 
-def get_friendly_name(self):
-    return self.friendly_name
+    def get_friendly_name(self):
+        return self.friendly_name    
 
-class Products(models.Model):
-    category = models.ForeignKey('Category', null=True, blank=True, on_delete=models.SET_NULL)
+class Philosopher(models.Model):
+    name = models.CharField(max_length=254)
+    friendly_name = models.CharField(max_length=254, null=True, blank=True)
+    
+    def __self__(self):
+        return self.name
+
+    def get_friendly_name(self):
+        return self.friendly_name
+
+class Product(models.Model):
+    category = models.ForeignKey('Category', null=True, blank=True, 
+    on_delete=models.SET_NULL)
+    philosopher = models.ForeignKey('Philosopher', null=True, blank=True,
+    on_delete=models.SET_NULL)
     sku = models.CharField(max_length=254, null=True, blank=True)
     name = models.CharField(max_length=254)
     description = models.TextField()
