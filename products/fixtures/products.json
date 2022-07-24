@@ -5,11 +5,11 @@
        "fields":{
           "sku":"ssMS01",
           "name":"1 AS",
-          "description":"Light blue, men's shirt with Arthur Schoppenhauer's quote",
+          "description":"Light blue, men's shirt",
           "price":15.05,
           "category":1,
           "philosopher":1,
-          "image_url":"http://s7d9.scene7.com/is/image/JCPenney/DP0709201205510679M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
+          "image_url":"/workspace/StoicShirts/media/1 AS.jpg?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
           "image":"1 AS.jpg"
        }
     },
@@ -19,7 +19,7 @@
        "fields":{
           "sku":"ssMS02",
           "name":"2 AS",
-          "description":"Light gray, men's shirt with Arthur Schoppenhauer's quote",
+          "description":"Light gray, men's shirt",
           "price":14.95,
           "category":1,
           "philosopher":1,
@@ -33,7 +33,7 @@
        "fields":{
           "sku":"ssMS03",
           "name":"1 IK",
-          "description":"Mahogany, men's shirt with Immanuel Kant's quote",
+          "description":"Mahogany, men's shirt",
           "price":13.35,
           "category":1,
           "philosopher":4,
@@ -47,7 +47,7 @@
        "fields":{
           "sku":"ssMS04",
           "name":"2 IK",
-          "description":"Black, men's shirt with Immanuel Kant's quote",
+          "description":"Black, men's shirt",
           "price":14.95,
           "category":1,
           "philosopher":4,
@@ -61,7 +61,7 @@
        "fields":{
           "sku":"ssMS05",
           "name":"1 MA",
-          "description":"White, men's shirt with Marcus Aurelius's quote",
+          "description":"White, men's shirt",
           "price":14.05,
           "category":1,
           "philosopher":3,
@@ -75,7 +75,7 @@
        "fields":{
           "sku":"ssMS06",
           "name":"2 MA",
-          "description":"Black, men's shirt with Marcus Aurelius's quote",
+          "description":"Black, men's shirt",
           "price":14.95,
           "category":1,
           "philosopher":3,
@@ -89,7 +89,7 @@
        "fields":{
           "sku":"ssMS07",
           "name":"1 P",
-          "description":"Light green, men's shirt with Plato's quote",
+          "description":"Light green, men's shirt",
           "price":13.35,
           "category":1,
           "philosopher":5,
@@ -103,7 +103,7 @@
        "fields":{
           "sku":"ssMS08",
           "name":"2 P",
-          "description":"Dark grey, men's shirt with Plato's quote",
+          "description":"Dark grey, men's shirt",
           "price":14.95,
           "category":1,
           "philosopher":5,
@@ -117,7 +117,7 @@
        "fields":{
           "sku":"ssMS09",
           "name":"1 S",
-          "description":"Sky blue, men's shirt with Seneca's quote",
+          "description":"Sky blue, men's shirt",
           "price":13.35,
           "category":1,
           "philosopher":2,
@@ -131,7 +131,7 @@
        "fields":{
           "sku":"ssMS10",
           "name":"2 S",
-          "description":"Light purple, men's shirt with Seneca's quote",
+          "description":"Light purple, men's shirt",
           "price":14.95,
           "category":1,
           "philosopher":2,
@@ -145,7 +145,7 @@
        "fields":{
           "sku":"ssMLS01",
           "name":"1 M LS B",
-          "description":"Black, men's long sleeve shirt ",
+          "description":"Black, men's long sleeve shirt",
           "price":13.35,
           "category":6,
           "rating":4.6,
@@ -173,7 +173,7 @@
        "fields":{
           "sku":"ssMLS03",
           "name":"3 M LS B",
-          "description":"Dark navy blue, men's long sleeve shirt ",
+          "description":"Dark navy blue, men's long sleeve shirt",
           "price":13.35,
           "category":6,
           "rating":4.6,
@@ -201,7 +201,7 @@
        "fields":{
           "sku":"ssMLS05",
           "name":"5 M LS B",
-          "description":"Black, men's long sleeve shirt ",
+          "description":"Black, men's long sleeve shirt",
           "price":13.35,
           "category":6,
           "rating":4.6,
@@ -215,7 +215,7 @@
        "fields":{
           "sku":"ssMLS06",
           "name":"1 M LS P",
-          "description":"Black, men's long sleeve shirt with Plato's quote",
+          "description":"Black, men's long sleeve shirt",
           "price":14.95,
           "category":4,
           "philosopher":5,
@@ -229,7 +229,7 @@
        "fields":{
           "sku":"ssMLS07",
           "name":"2 M LS MA",
-          "description":"Black, men's long sleeve shirt with Marcus Aurelius's quote",
+          "description":"Black, men's long sleeve shirt",
           "price":14.95,
           "category":4,
           "philosopher":3,
@@ -243,7 +243,7 @@
        "fields":{
           "sku":"ssMLS08",
           "name":"3 M LS MA",
-          "description":"Black, men's long sleeve shirt with Marcus Aurelius's quote ",
+          "description":"Black, men's long sleeve shirt",
           "price":13.35,
           "category":4,
           "philosopher":3,
@@ -257,7 +257,7 @@
        "fields":{
           "sku":"ssMLS09",
           "name":"4 M LS P",
-          "description":"Navy blue, men's long sleeve shirt with Plato's quote",
+          "description":"Navy blue, men's long sleeve shirt",
           "price":14.95,
           "category":4,
           "philosopher":5,
@@ -271,7 +271,7 @@
        "fields":{
           "sku":"ssMLS10",
           "name":"5 M LS MA",
-          "description":"Hunter's green, men's long sleeve shirt with Marcus Aurelius's quote ",
+          "description":"Hunter's green, men's long sleeve shirt",
           "price":13.35,
           "category":4,
           "philosopher":3,
@@ -565,7 +565,7 @@
        "fields":{
           "sku":"ssWS01",
           "name":" 1 W AS ",
-          "description":"White, women's shirt with Arthur Schopenhauer's quote",
+          "description":"White, women's shirt",
           "price":12.95,
           "category":2,
           "philosopher":1,
@@ -579,7 +579,7 @@
        "fields":{
           "sku":"ssWS02",
           "name":" 2 W AS ",
-          "description":"White, women's tank top shirt with Arthur Schopenhauer's quote",
+          "description":"White, women's tank top shirt",
           "price":12.95,
           "category":2,
           "philosopher":1,
@@ -593,7 +593,7 @@
        "fields":{
           "sku":"ssWS03",
           "name":" 1 W IK ",
-          "description":"White, women's shirt with Immanuel Kant's quote",
+          "description":"White, women's shirt",
           "price":12.95,
           "category":2,
           "philosopher":4,
@@ -607,7 +607,7 @@
        "fields":{
           "sku":"ssWS04",
           "name":" 2 W IK ",
-          "description":"White, women's shirt with Immanuel Kant's quote",
+          "description":"White, women's shirt with",
           "price":12.95,
           "category":2,
           "philosopher":4,
@@ -621,7 +621,7 @@
        "fields":{
           "sku":"ssWS05",
           "name":" 3 W IK ",
-          "description":"White, women's shirt with Immanuel Kant's quote",
+          "description":"White, women's shirt",
           "price":12.95,
           "category":2,
           "philosopher":4,
@@ -705,7 +705,7 @@
        "fields":{
           "sku":"ssWLS06",
           "name":" 1 W LS IK ",
-          "description":"Black and white horizontal lines, women long sleeve shirt with Immanuel Kant's quote",
+          "description":"Black and white horizontal lines, women long sleeve shirt",
           "price":12.95,
           "category":5,
           "philosopher":4,
@@ -719,7 +719,7 @@
        "fields":{
           "sku":"ssWLS07",
           "name":" 2 W LS S ",
-          "description":"Pink, women long sleeve shirt with Seneca's quote",
+          "description":"Pink, women long sleeve shirt",
           "price":12.95,
           "category":5,
           "philosopher":2,
@@ -733,7 +733,7 @@
        "fields":{
           "sku":"ssWLS08",
           "name":" 3 W LS MA ",
-          "description":"Light blue, women long sleeve shirt with Marcus Aurelius's quote",
+          "description":"Light blue, women long sleeve shirt",
           "price":12.95,
           "category":5,
           "philosopher":3,
@@ -747,7 +747,7 @@
        "fields":{
           "sku":"ssWLS09",
           "name":" 4 W LS MA",
-          "description":"Salmon color and white horizontal lines, women long sleeve shirt with Marcus Aurelius's quote",
+          "description":"Salmon color and white horizontal lines, women long sleeve shirt",
           "price":12.95,
           "category":5,
           "philosopher":3,
@@ -761,7 +761,7 @@
        "fields":{
           "sku":"ssWLS09",
           "name":" 5 W LS P ",
-          "description":"White, women long sleeve shirt with Plato's quote",
+          "description":"White, women long sleeve shirt",
           "price":12.95,
           "category":5,
           "philosopher":5,
@@ -775,7 +775,7 @@
        "fields":{
           "sku":"ssWS06",
           "name":" 1 W MA",
-          "description":"White, women's shirt with Marcus Aurelius's quote",
+          "description":"White, women's shirt",
           "price":18.95,
           "category":5,
           "philosopher":3,
@@ -789,7 +789,7 @@
        "fields":{
           "sku":"ssWS07",
           "name":" 2 W MA",
-          "description":"White, women's shirt with Marcus Aurelius's quote",
+          "description":"White, women's shirt",
           "price":18.95,
           "category":5,
           "philosopher":3,
@@ -803,7 +803,7 @@
        "fields":{
           "sku":"ssWS08",
           "name":" 1 W P",
-          "description":"White, women's shirt with Plato's quote",
+          "description":"White, women's shirt",
           "price":14.95,
           "category":5,
           "philosopher":5,
@@ -817,7 +817,7 @@
        "fields":{
           "sku":"ssWS09",
           "name":" 2 W P",
-          "description":"Light pink, women's shirt with Plato's quote",
+          "description":"Light pink, women's shirt",
           "price":14.95,
           "category":5,
           "philosopher":5,
@@ -831,7 +831,7 @@
        "fields":{
           "sku":"ssWS10",
           "name":" 1 W S",
-          "description":"Light green, women's shirt with Seneca's quote",
+          "description":"Light green, women's shirt",
           "price":12.95,
           "category":5,
           "philosopher":2,
@@ -845,7 +845,7 @@
        "fields":{
           "sku":"ssWS11",
           "name":" 2 W S",
-          "description":"Light grey, women's shirt with Seneca's quote",
+          "description":"Light grey, women's shirt",
           "price":12.95,
           "category":5,
           "philosopher":2,
