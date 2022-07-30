@@ -23,6 +23,5 @@ def product_detail(request, product_id):
     context = {
         'product': product,
     }
-    print(context)
+
     return render(request, 'products/product_detail.html', context)
-    

@@ -1,856 +1,785 @@
-[
-    {
-       "pk":1,
-       "model":"products.product",
-       "fields":{
-          "sku":"ssMS01",
-          "name":"1 AS",
-          "description":"Light blue, men's shirt",
-          "price":15.05,
-          "category":1,
-          "philosopher":1,
-          "image_url":"/workspace/StoicShirts/media/1 AS.jpg?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-          "image":"1 AS.jpg"
-       }
-    },
-    {
-       "pk":2,
-       "model":"products.product",
-       "fields":{
-          "sku":"ssMS02",
-          "name":"2 AS",
-          "description":"Light gray, men's shirt",
-          "price":14.95,
-          "category":1,
-          "philosopher":1,
-          "image_url":"http://s7d9.scene7.com/is/image/JCPenney/DP0709201205510679M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-          "image":"2 AS.jpg"
-       }
-    },
-    {
-       "pk":3,
-       "model":"products.product",
-       "fields":{
-          "sku":"ssMS03",
-          "name":"1 IK",
-          "description":"Mahogany, men's shirt",
-          "price":13.35,
-          "category":1,
-          "philosopher":4,
-          "image_url":"http://s7d9.scene7.com/is/image/JCPenney/DP0709201205510679M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-          "image":"1 IK.jpg"
-       }
-    },
-    {
-       "pk":4,
-       "model":"products.product",
-       "fields":{
-          "sku":"ssMS04",
-          "name":"2 IK",
-          "description":"Black, men's shirt",
-          "price":14.95,
-          "category":1,
-          "philosopher":4,
-          "image_url":"http://s7d9.scene7.com/is/image/JCPenney/DP0709201205510679M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-          "image":"2 IK.jpg"
-       }
-    },
-    {
-       "pk":5,
-       "model":"products.product",
-       "fields":{
-          "sku":"ssMS05",
-          "name":"1 MA",
-          "description":"White, men's shirt",
-          "price":14.05,
-          "category":1,
-          "philosopher":3,
-          "image_url":"http://s7d9.scene7.com/is/image/JCPenney/DP0709201205510679M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-          "image":"1 MA.jpg"
-       }
-    },
-    {
-       "pk":6,
-       "model":"products.product",
-       "fields":{
-          "sku":"ssMS06",
-          "name":"2 MA",
-          "description":"Black, men's shirt",
-          "price":14.95,
-          "category":1,
-          "philosopher":3,
-          "image_url":"http://s7d9.scene7.com/is/image/JCPenney/DP0709201205510679M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-          "image":"2 MA.jpg"
-       }
-    },
-    {
-       "pk":7,
-       "model":"products.product",
-       "fields":{
-          "sku":"ssMS07",
-          "name":"1 P",
-          "description":"Light green, men's shirt",
-          "price":13.35,
-          "category":1,
-          "philosopher":5,
-          "image_url":"http://s7d9.scene7.com/is/image/JCPenney/DP0709201205510679M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-          "image":"1 P.jpg"
-       }
-    },
-    {
-       "pk":8,
-       "model":"products.product",
-       "fields":{
-          "sku":"ssMS08",
-          "name":"2 P",
-          "description":"Dark grey, men's shirt",
-          "price":14.95,
-          "category":1,
-          "philosopher":5,
-          "image_url":"http://s7d9.scene7.com/is/image/JCPenney/DP0709201205510679M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-          "image":"2 P.jpg"
-       }
-    },
-    {
-       "pk":9,
-       "model":"products.product",
-       "fields":{
-          "sku":"ssMS09",
-          "name":"1 S",
-          "description":"Sky blue, men's shirt",
-          "price":13.35,
-          "category":1,
-          "philosopher":2,
-          "image_url":"http://s7d9.scene7.com/is/image/JCPenney/DP0709201205510679M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-          "image":"1 S.jpg"
-       }
-    },
-    {
-       "pk":10,
-       "model":"products.product",
-       "fields":{
-          "sku":"ssMS10",
-          "name":"2 S",
-          "description":"Light purple, men's shirt",
-          "price":14.95,
-          "category":1,
-          "philosopher":2,
-          "image_url":"http://s7d9.scene7.com/is/image/JCPenney/DP0709201205510679M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-          "image":"2 S.jpg"
-       }
-    },
-    {
-       "pk":11,
-       "model":"products.product",
-       "fields":{
-          "sku":"ssMLS01",
-          "name":"1 M LS B",
-          "description":"Black, men's long sleeve shirt",
-          "price":13.35,
-          "category":6,
-          "rating":4.6,
-          "image_url":"http://s7d9.scene7.com/is/image/JCPenney/DP0709201205510679M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-          "image":"1 M LS B.jpg"
-       }
-    },
-    {
-       "pk":12,
-       "model":"products.product",
-       "fields":{
-          "sku":"ssMLS02",
-          "name":"2 M LS B",
-          "description":"Dark grey, men's long sleeve shirt",
-          "price":14.95,
-          "category":6,
-          "rating":4.6,
-          "image_url":"http://s7d9.scene7.com/is/image/JCPenney/DP0709201205510679M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-          "image":"2 M LS B.jpg"
-       }
-    },
-    {
-       "pk":13,
-       "model":"products.product",
-       "fields":{
-          "sku":"ssMLS03",
-          "name":"3 M LS B",
-          "description":"Dark navy blue, men's long sleeve shirt",
-          "price":13.35,
-          "category":6,
-          "rating":4.6,
-          "image_url":"http://s7d9.scene7.com/is/image/JCPenney/DP0709201205510679M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-          "image":"3 M LS B.jpg"
-       }
-    },
-    {
-       "pk":14,
-       "model":"products.product",
-       "fields":{
-          "sku":"ssMLS04",
-          "name":"4 M LS B",
-          "description":"Black, men's long sleeve shirt",
-          "price":14.95,
-          "category":6,
-          "rating":4.6,
-          "image_url":"http://s7d9.scene7.com/is/image/JCPenney/DP0709201205510679M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-          "image":"4 M LS B.jpg"
-       }
-    },
-    {
-       "pk":15,
-       "model":"products.product",
-       "fields":{
-          "sku":"ssMLS05",
-          "name":"5 M LS B",
-          "description":"Black, men's long sleeve shirt",
-          "price":13.35,
-          "category":6,
-          "rating":4.6,
-          "image_url":"http://s7d9.scene7.com/is/image/JCPenney/DP0709201205510679M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-          "image":"5 M LS B.jpg"
-       }
-    },
-    {
-       "pk":16,
-       "model":"products.product",
-       "fields":{
-          "sku":"ssMLS06",
-          "name":"1 M LS P",
-          "description":"Black, men's long sleeve shirt",
-          "price":14.95,
-          "category":4,
-          "philosopher":5,
-          "image_url":"http://s7d9.scene7.com/is/image/JCPenney/DP0709201205510679M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-          "image":"1 M LS P.jpg"
-       }
-    },
-    {
-       "pk":17,
-       "model":"products.product",
-       "fields":{
-          "sku":"ssMLS07",
-          "name":"2 M LS MA",
-          "description":"Black, men's long sleeve shirt",
-          "price":14.95,
-          "category":4,
-          "philosopher":3,
-          "image_url":"http://s7d9.scene7.com/is/image/JCPenney/DP0709201205510679M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-          "image":"2 M LS MA.jpg"
-       }
-    },
-    {
-       "pk":18,
-       "model":"products.product",
-       "fields":{
-          "sku":"ssMLS08",
-          "name":"3 M LS MA",
-          "description":"Black, men's long sleeve shirt",
-          "price":13.35,
-          "category":4,
-          "philosopher":3,
-          "image_url":"http://s7d9.scene7.com/is/image/JCPenney/DP0709201205510679M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-          "image":"3 M LS MA.jpg"
-       }
-    },
-    {
-       "pk":19,
-       "model":"products.product",
-       "fields":{
-          "sku":"ssMLS09",
-          "name":"4 M LS P",
-          "description":"Navy blue, men's long sleeve shirt",
-          "price":14.95,
-          "category":4,
-          "philosopher":5,
-          "image_url":"http://s7d9.scene7.com/is/image/JCPenney/DP0709201205510679M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-          "image":"4 M LS P.jpg"
-       }
-    },
-    {
-       "pk":20,
-       "model":"products.product",
-       "fields":{
-          "sku":"ssMLS10",
-          "name":"5 M LS MA",
-          "description":"Hunter's green, men's long sleeve shirt",
-          "price":13.35,
-          "category":4,
-          "philosopher":3,
-          "image_url":"http://s7d9.scene7.com/is/image/JCPenney/DP0709201205510679M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-          "image":"5 M LS MA.jpg"
-       }
-    },
-    {
-       "pk":21,
-       "model":"products.product",
-       "fields":{
-          "sku":"ssULS01",
-          "name":"1 U LS B",
-          "description":"White, unisex long sleeve shirt",
-          "price":12.95,
-          "category":3,
-          "rating":2.5,
-          "image_url":"http://s7d9.scene7.com/is/image/JCPenney/DP0709201205510679M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-          "image":"1 U LS B.jpg"
-       }
-    },
-    {
-       "pk":22,
-       "model":"products.product",
-       "fields":{
-          "sku":"ssULS02",
-          "name":"2 U LS B",
-          "description":"White, unisex long sleeve shirt",
-          "price":12.95,
-          "category":3,
-          "rating":2.5,
-          "image_url":"http://s7d9.scene7.com/is/image/JCPenney/DP0709201205510679M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-          "image":"2 U LS B.jpg"
-       }
-    },
-    {
-       "pk":23,
-       "model":"products.product",
-       "fields":{
-          "sku":"ssULS03",
-          "name":"3 U LS B",
-          "description":"White, unisex long sleeve shirt",
-          "price":12.95,
-          "category":3,
-          "rating":2.5,
-          "image_url":"http://s7d9.scene7.com/is/image/JCPenney/DP0709201205510679M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-          "image":"3 U LS B.jpg"
-       }
-    },
-    {
-       "pk":24,
-       "model":"products.product",
-       "fields":{
-          "sku":"ssULS04",
-          "name":"4 U LS B",
-          "description":"Cream, unisex long sleeve shirt",
-          "price":12.95,
-          "category":3,
-          "rating":2.5,
-          "image_url":"http://s7d9.scene7.com/is/image/JCPenney/DP0709201205510679M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-          "image":"4 U LS B.jpg"
-       }
-    },
-    {
-       "pk":25,
-       "model":"products.product",
-       "fields":{
-          "sku":"ssULS05",
-          "name":"5 U LS B",
-          "description":"White, unisex long sleeve shirt",
-          "price":12.95,
-          "category":3,
-          "rating":2.5,
-          "image_url":"http://s7d9.scene7.com/is/image/JCPenney/DP0709201205510679M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-          "image":"5 U LS B.jpg"
-       }
-    },
-    {
-       "pk":26,
-       "model":"products.product",
-       "fields":{
-          "sku":"ssULS06",
-          "name":"6 U LS B",
-          "description":"Cream, unisex long sleeve shirt",
-          "price":12.95,
-          "category":3,
-          "rating":2.5,
-          "image_url":"http://s7d9.scene7.com/is/image/JCPenney/DP0709201205510679M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-          "image":"6 U LS B.jpg"
-       }
-    },
-    {
-       "pk":27,
-       "model":"products.product",
-       "fields":{
-          "sku":"ssULS07",
-          "name":"7 U LS B",
-          "description":"White, unisex long sleeve shirt",
-          "price":12.95,
-          "category":3,
-          "rating":2.5,
-          "image_url":"http://s7d9.scene7.com/is/image/JCPenney/DP0709201205510679M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-          "image":"7 U LS B.jpg"
-       }
-    },
-    {
-       "pk":28,
-       "model":"products.product",
-       "fields":{
-          "sku":"ssULS08",
-          "name":"8 U LS B",
-          "description":"White, unisex long sleeve shirt",
-          "price":12.95,
-          "category":3,
-          "rating":2.5,
-          "image_url":"http://s7d9.scene7.com/is/image/JCPenney/DP0709201205510679M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-          "image":"8 U LS B.jpg"
-       }
-    },
-    {
-       "pk":29,
-       "model":"products.product",
-       "fields":{
-          "sku":"ssULS09",
-          "name":"9 U LS B",
-          "description":"Dark blue, unisex long sleeve shirt",
-          "price":12.95,
-          "category":3,
-          "rating":2.5,
-          "image_url":"http://s7d9.scene7.com/is/image/JCPenney/DP0709201205510679M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-          "image":"9 U LS B.jpg"
-       }
-    },
-    {
-       "pk":30,
-       "model":"products.product",
-       "fields":{
-          "sku":"ssULS10",
-          "name":"10 U LS B",
-          "description":"White, unisex long sleeve shirt",
-          "price":12.95,
-          "category":3,
-          "rating":2.5,
-          "image_url":"http://s7d9.scene7.com/is/image/JCPenney/DP0709201205510679M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-          "image":"10 U LS B.jpg"
-       }
-    },
-    {
-       "pk":31,
-       "model":"products.product",
-       "fields":{
-          "sku":"ssULS11",
-          "name":" 11 U LS B ",
-          "description":"White, unisex long sleeve shirt",
-          "price":12.95,
-          "category":3,
-          "rating":2.5,
-          "image_url":"http://s7d9.scene7.com/is/image/JCPenney/DP0709201205510679M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-          "image":"11 U LS B.jpg"
-       }
-    },
-    {
-       "pk":32,
-       "model":"products.product",
-       "fields":{
-          "sku":"ssULS12",
-          "name":"12 U LS B",
-          "description":"White, unisex long sleeve shirt",
-          "price":12.95,
-          "category":3,
-          "rating":2.5,
-          "image_url":"http://s7d9.scene7.com/is/image/JCPenney/DP0709201205510679M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-          "image":"12 U LS B.jpg"
-       }
-    },
-    {
-       "pk":33,
-       "model":"products.product",
-       "fields":{
-          "sku":"ssULS13",
-          "name":"13 U LS B",
-          "description":"Grey, unisex long sleeve shirt",
-          "price":12.95,
-          "category":3,
-          "rating":2.5,
-          "image_url":"http://s7d9.scene7.com/is/image/JCPenney/DP0709201205510679M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-          "image":"13 U LS B.jpg"
-       }
-    },
-    {
-       "pk":34,
-       "model":"products.product",
-       "fields":{
-          "sku":"ssULS14",
-          "name":"14 U LS B",
-          "description":"Pink, unisex long sleeve shirt",
-          "price":12.95,
-          "category":3,
-          "rating":2.5,
-          "image_url":"http://s7d9.scene7.com/is/image/JCPenney/DP0709201205510679M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-          "image":"14 U LS B.jpg"
-       }
-    },
-    {
-       "pk":35,
-       "model":"products.product",
-       "fields":{
-          "sku":"ssULS15",
-          "name":"15 U LS B",
-          "description":"Blue with pink logo, unisex long sleeve shirt",
-          "price":12.95,
-          "category":3,
-          "rating":2.5,
-          "image_url":"http://s7d9.scene7.com/is/image/JCPenney/DP0709201205510679M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-          "image":"15 U LS B.jpg"
-       }
-    },
-    {
-       "pk":36,
-       "model":"products.product",
-       "fields":{
-          "sku":"ssULS16",
-          "name":"16 U LS B",
-          "description":"Red and white horizontal lines design, unisex long sleeve shirt",
-          "price":12.95,
-          "category":3,
-          "rating":2.5,
-          "image_url":"http://s7d9.scene7.com/is/image/JCPenney/DP0709201205510679M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-          "image":"16 U LS B.jpg"
-       }
-    },
-    {
-       "pk":37,
-       "model":"products.product",
-       "fields":{
-          "sku":"ssULS17",
-          "name":"17 U LS B",
-          "description":"Black, unisex long sleeve shirt",
-          "price":12.95,
-          "category":3,
-          "rating":2.5,
-          "image_url":"http://s7d9.scene7.com/is/image/JCPenney/DP0709201205510679M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-          "image":"17 U LS B.jpg"
-       }
-    },
-    {
-       "pk":38,
-       "model":"products.product",
-       "fields":{
-          "sku":"ssULS18",
-          "name":"18 U LS B",
-          "description":"Black, unisex long sleeve shirt",
-          "price":12.95,
-          "category":3,
-          "rating":2.5,
-          "image_url":"http://s7d9.scene7.com/is/image/JCPenney/DP0709201205510679M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-          "image":"18 U LS B.jpg"
-       }
-    },
-    {
-       "pk":39,
-       "model":"products.product",
-       "fields":{
-          "sku":"ssULS19",
-          "name":"19 U LS B",
-          "description":"Grey and red horizontal lines design, unisex long sleeve shirt",
-          "price":12.95,
-          "category":3,
-          "rating":2.5,
-          "image_url":"http://s7d9.scene7.com/is/image/JCPenney/DP0709201205510679M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-          "image":"19 U LS B.jpg"
-       }
-    },
-    {
-       "pk":40,
-       "model":"products.product",
-       "fields":{
-          "sku":"ssULS20",
-          "name":"20 U LS B",
-          "description":"White, unisex long sleeve shirt",
-          "price":12.95,
-          "category":3,
-          "rating":2.5,
-          "image_url":"http://s7d9.scene7.com/is/image/JCPenney/DP0709201205510679M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-          "image":"20 U LS B.jpg"
-       }
-    },
-    {
-       "pk":41,
-       "model":"products.product",
-       "fields":{
-          "sku":"ssWS01",
-          "name":"1 W AS",
-          "description":"White, women's shirt",
-          "price":12.95,
-          "category":2,
-          "philosopher":1,
-          "image_url":"http://s7d9.scene7.com/is/image/JCPenney/DP0709201205510679M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-          "image":"1 W AS.jpg"
-       }
-    },
-    {
-       "pk":42,
-       "model":"products.product",
-       "fields":{
-          "sku":"ssWS02",
-          "name":"2 W AS",
-          "description":"White, women's tank top shirt",
-          "price":12.95,
-          "category":2,
-          "philosopher":1,
-          "image_url":"http://s7d9.scene7.com/is/image/JCPenney/DP0709201205510679M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-          "image":"2 W AS.jpg"
-       }
-    },
-    {
-       "pk":43,
-       "model":"products.product",
-       "fields":{
-          "sku":"ssWS03",
-          "name":"1 W IK",
-          "description":"White, women's shirt",
-          "price":12.95,
-          "category":2,
-          "philosopher":4,
-          "image_url":"http://s7d9.scene7.com/is/image/JCPenney/DP0709201205510679M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-          "image":"1 W IK.jpg"
-       }
-    },
-    {
-       "pk":44,
-       "model":"products.product",
-       "fields":{
-          "sku":"ssWS04",
-          "name":"2 W IK",
-          "description":"White, women's shirt with",
-          "price":12.95,
-          "category":2,
-          "philosopher":4,
-          "image_url":"http://s7d9.scene7.com/is/image/JCPenney/DP0709201205510679M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-          "image":"2 W IK.jpg"
-       }
-    },
-    {
-       "pk":45,
-       "model":"products.product",
-       "fields":{
-          "sku":"ssWS05",
-          "name":"3 W IK",
-          "description":"White, women's shirt",
-          "price":12.95,
-          "category":2,
-          "philosopher":4,
-          "image_url":"http://s7d9.scene7.com/is/image/JCPenney/DP0709201205510679M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-          "image":"3 W IK.jpg"
-       }
-    },
-    {
-       "pk":46,
-       "model":"products.product",
-       "fields":{
-          "sku":"ssWLS01",
-          "name":"1 W LS B",
-          "description":"Light green, women long sleeve shirt",
-          "price":12.95,
-          "category":5,
-          "rating":2.5,
-          "image_url":"http://s7d9.scene7.com/is/image/JCPenney/DP0709201205510679M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-          "image":"1 W LS B.jpg"
-       }
-    },
-    {
-       "pk":47,
-       "model":"products.product",
-       "fields":{
-          "sku":"ssWLS02",
-          "name":"2 W LS B",
-          "description":"Grey, women long sleeve shirt",
-          "price":12.95,
-          "category":5,
-          "rating":2.5,
-          "image_url":"http://s7d9.scene7.com/is/image/JCPenney/DP0709201205510679M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-          "image":"2 W LS B.jpg"
-       }
-    },
-    {
-       "pk":48,
-       "model":"products.product",
-       "fields":{
-          "sku":"ssWLS03",
-          "name":"3 W LS B",
-          "description":"Cream, women long sleeve shirt",
-          "price":12.95,
-          "category":5,
-          "rating":2.5,
-          "image_url":"http://s7d9.scene7.com/is/image/JCPenney/DP0709201205510679M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-          "image":"3 W LS B.jpg"
-       }
-    },
-    {
-       "pk":49,
-       "model":"products.product",
-       "fields":{
-          "sku":"ssWLS04",
-          "name":"4 W LS B",
-          "description":"Light blue, women long sleeve shirt",
-          "price":12.95,
-          "category":5,
-          "rating":2.5,
-          "image_url":"http://s7d9.scene7.com/is/image/JCPenney/DP0709201205510679M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-          "image":"4 W LS B.jpg"
-       }
-    },
-    {
-       "pk":50,
-       "model":"products.product",
-       "fields":{
-          "sku":"ssWLS05",
-          "name":"5 W LS B",
-          "description":"Yellow, women long sleeve shirt",
-          "price":12.95,
-          "category":5,
-          "rating":2.5,
-          "image_url":"http://s7d9.scene7.com/is/image/JCPenney/DP0709201205510679M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-          "image":"5 W LS B.jpg"
-       }
-    },
-    {
-       "pk":51,
-       "model":"products.product",
-       "fields":{
-          "sku":"ssWLS06",
-          "name":"1 W LS IK",
-          "description":"Black and white horizontal lines, women long sleeve shirt",
-          "price":12.95,
-          "category":5,
-          "philosopher":4,
-          "image_url":"http://s7d9.scene7.com/is/image/JCPenney/DP0709201205510679M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-          "image":"1 W LS IK.jpg"
-       }
-    },
-    {
-       "pk":52,
-       "model":"products.product",
-       "fields":{
-          "sku":"ssWLS07",
-          "name":"2 W LS S",
-          "description":"Pink, women long sleeve shirt",
-          "price":12.95,
-          "category":5,
-          "philosopher":2,
-          "image_url":"http://s7d9.scene7.com/is/image/JCPenney/DP0709201205510679M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-          "image":"2 W LS S.jpg"
-       }
-    },
-    {
-       "pk":53,
-       "model":"products.product",
-       "fields":{
-          "sku":"ssWLS08",
-          "name":"3 W LS MA",
-          "description":"Light blue, women long sleeve shirt",
-          "price":12.95,
-          "category":5,
-          "philosopher":3,
-          "image_url":"http://s7d9.scene7.com/is/image/JCPenney/DP0709201205510679M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-          "image":"3 W LS MA.jpg"
-       }
-    },
-    {
-       "pk":54,
-       "model":"products.product",
-       "fields":{
-          "sku":"ssWLS09",
-          "name":"4 W LS MA",
-          "description":"Salmon color and white horizontal lines, women long sleeve shirt",
-          "price":12.95,
-          "category":5,
-          "philosopher":3,
-          "image_url":"http://s7d9.scene7.com/is/image/JCPenney/DP0709201205510679M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-          "image":"4 W LS MA.jpg"
-       }
-    },
-    {
-       "pk":55,
-       "model":"products.product",
-       "fields":{
-          "sku":"ssWLS09",
-          "name":"5 W LS P",
-          "description":"White, women long sleeve shirt",
-          "price":12.95,
-          "category":5,
-          "philosopher":5,
-          "image_url":"http://s7d9.scene7.com/is/image/JCPenney/DP0709201205510679M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-          "image":"5 W LS P.jpg"
-       }
-    },
-    {
-       "pk":56,
-       "model":"products.product",
-       "fields":{
-          "sku":"ssWS06",
-          "name":"1 W MA",
-          "description":"White, women's shirt",
-          "price":18.95,
-          "category":5,
-          "philosopher":3,
-          "image_url":"http://s7d9.scene7.com/is/image/JCPenney/DP0709201205510679M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-          "image":"1 W MA.jpg"
-       }
-    },
-    {
-       "pk":57,
-       "model":"products.product",
-       "fields":{
-          "sku":"ssWS07",
-          "name":"2 W MA",
-          "description":"White, women's shirt",
-          "price":18.95,
-          "category":5,
-          "philosopher":3,
-          "image_url":"http://s7d9.scene7.com/is/image/JCPenney/DP0709201205510679M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-          "image":"2 W MA.jpg"
-       }
-    },
-    {
-       "pk":58,
-       "model":"products.product",
-       "fields":{
-          "sku":"ssWS08",
-          "name":"1 W P",
-          "description":"White, women's shirt",
-          "price":14.95,
-          "category":5,
-          "philosopher":5,
-          "image_url":"http://s7d9.scene7.com/is/image/JCPenney/DP0709201205510679M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-          "image":"1 W P.jpg"
-       }
-    },
-    {
-       "pk":59,
-       "model":"products.product",
-       "fields":{
-          "sku":"ssWS09",
-          "name":"2 W P",
-          "description":"Light pink, women's shirt",
-          "price":14.95,
-          "category":5,
-          "philosopher":5,
-          "image_url":"http://s7d9.scene7.com/is/image/JCPenney/DP0709201205510679M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-          "image":"2 W P.jpg"
-       }
-    },
-    {
-       "pk":60,
-       "model":"products.product",
-       "fields":{
-          "sku":"ssWS10",
-          "name":"1 W S",
-          "description":"Light green, women's shirt",
-          "price":12.95,
-          "category":5,
-          "philosopher":2,
-          "image_url":"http://s7d9.scene7.com/is/image/JCPenney/DP0709201205510679M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-          "image":"1 W S.jpg"
-       }
-    },
-    {
-       "pk":61,
-       "model":"products.product",
-       "fields":{
-          "sku":"ssWS11",
-          "name":"2 W S",
-          "description":"Light grey, women's shirt",
-          "price":12.95,
-          "category":5,
-          "philosopher":2,
-          "image_url":"http://s7d9.scene7.com/is/image/JCPenney/DP0709201205510679M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-          "image":"2 W S.jpg"
-       }
-    }
- ]
+[{
+   "pk": 1,
+   "model": "products.product",
+   "fields": {
+       "sku": "ssMS01",
+       "name": "1_men_shirt_as",
+       "description": "Light blue, men's shirt with Arthur Schoppenhauer's quote",
+       "price": 15.05,
+       "category": 1,
+       "philosopher": 1,
+       "image": "1_men_shirt_as.jpg"
+   }
+}, {
+   "pk": 2,
+   "model": "products.product",
+   "fields": {
+       "sku": "ssMS02",
+       "name": "2-men-shirts-as",
+       "description": "Light gray, men's shirt with Arthur Schoppenhauer's quote",
+       "price": 14.95,
+       "category": 1,
+       "philosopher": 1,
+       "image": "2-men-shirts-as.jpg"
+   }
+},
+{
+   "pk": 3,
+   "model": "products.product",
+   "fields": {
+       "sku": "ssMS03",
+       "name": "1-men-shirts-ik",
+       "description": "Mahogany, men's shirt with Immanuel Kant's quote",
+       "price": 13.35,
+       "category": 1,
+       "philosopher": 4,
+       "image": "1-men-shirts-ik.jpg"
+   }
+}, {
+   "pk": 4,
+   "model": "products.product",
+   "fields": {
+       "sku": "ssMS04",
+       "name": "2-men-shirts-as",
+       "description": "Black, men's shirt with Immanuel Kant's quote",
+       "price": 14.95,
+       "category": 1,
+       "philosopher": 4,
+       "image": "2-men-shirts-ik.jpg"
+   }
+},
+{
+   "pk": 5,
+   "model": "products.product",
+   "fields": {
+       "sku": "ssMS05",
+       "name": "1-men-shirts-ma",
+       "description": "White, men's shirt with Marcus Aurelius's quote",
+       "price": 14.05,
+       "category": 1,
+       "philosopher": 3,
+       "image": "1-men-shirts-ma.jpg"
+   }
+}, {
+   "pk": 6,
+   "model": "products.product",
+   "fields": {
+       "sku": "ssMS06",
+       "name": "2-men-shirts-ma",
+       "description": "Black, men's shirt with Marcus Aurelius's quote",
+       "price": 14.95,
+       "category": 1,
+       "philosopher": 3,
+       "image": "2-men-shirts-ma.jpg"
+   }
+},
+{
+   "pk": 7,
+   "model": "products.product",
+   "fields": {
+       "sku": "ssMS07",
+       "name": "1-men-shirts-p",
+       "description": "Light green, men's shirt with Plato's quote",
+       "price": 13.35,
+       "category": 1,
+       "philosopher": 5,
+       "image": "1-men-shirts-p.jpg"
+   }
+}, {
+   "pk": 8,
+   "model": "products.product",
+   "fields": {
+       "sku": "ssMS08",
+       "name": "2-men-shirts-p",
+       "description": "Dark grey, men's shirt with Plato's quote",
+       "price": 14.95,
+       "category": 1,
+       "philosopher": 5,
+       "image": "2-men-shirts-p.jpg"
+   }
+},
+{
+   "pk": 9,
+   "model": "products.product",
+   "fields": {
+       "sku": "ssMS09",
+       "name": "1-men-shirts-s",
+       "description": "Sky blue, men's shirt with Seneca's quote",
+       "price": 13.35,
+       "category": 1,
+       "philosopher": 2,
+       "image": "1-men-shirts-s.jpg"
+   }
+}, {
+   "pk": 10,
+   "model": "products.product",
+   "fields": {
+       "sku": "ssMS10",
+       "name": "2-men-shirts-s",
+       "description": "Light purple, men's shirt with Seneca's quote",
+       "price": 14.95,
+       "category": 1,
+       "philosopher": 2,
+       "image": "2-men-shirts-s.jpg"
+   }
+},
+{
+   "pk": 11,
+   "model": "products.product",
+   "fields": {
+       "sku": "ssMLS01",
+       "name": "1-men-long-shirt-blank",
+       "description": "Black, men's long sleeve shirt ",
+       "price": 13.35,
+       "category": 6,
+       "rating": 4.6,
+       "image": "1-men-long-shirt-blank.jpg"
+   }
+}, {
+   "pk": 12,
+   "model": "products.product",
+   "fields": {
+       "sku": "ssMLS02",
+       "name": "2-men-long-shirt-blank",
+       "description": "Dark grey, men's long sleeve shirt",
+       "price": 14.95,
+       "category": 6,
+       "rating": 4.6,
+       "image": "2-men-long-shirt-blank.jpg"
+   }
+},
+{
+   "pk": 13,
+   "model": "products.product",
+   "fields": {
+       "sku": "ssMLS03",
+       "name": "3-men-long-shirt-blank",
+       "description": "Dark navy blue, men's long sleeve shirt ",
+       "price": 13.35,
+       "category": 6,
+       "rating": 4.6,
+       "image": "3-men-long-shirt-blank.jpg"
+   }
+}, {
+   "pk": 14,
+   "model": "products.product",
+   "fields": {
+       "sku": "ssMLS04",
+       "name": "4-men-long-shirt-blank",
+       "description": "Black, men's long sleeve shirt",
+       "price": 14.95,
+       "category": 6,
+       "rating": 4.6,
+       "image": "4-men-long-shirt-blank.jpg"
+   }
+},
+{
+   "pk": 15,
+   "model": "products.product",
+   "fields": {
+       "sku": "ssMLS05",
+       "name": "5-men-long-shirt-blank",
+       "description": "Black, men's long sleeve shirt ",
+       "price": 13.35,
+       "category": 6,
+       "rating": 4.6,
+       "image": "5-men-long-shirt-blank.jpg"
+   }
+}, {
+   "pk": 16,
+   "model": "products.product",
+   "fields": {
+       "sku": "ssMLS06",
+       "name": "1-men-long-shirt-p",
+       "description": "Black, men's long sleeve shirt with Plato's quote",
+       "price": 14.95,
+       "category": 4,
+       "philosopher": 5,
+       "image": "1-men-long-shirt-p.jpg"
+   }
+},
+{
+   "pk": 17,
+   "model": "products.product",
+   "fields": {
+       "sku": "ssMLS07",
+       "name": "2-men-long-shirt-ma",
+       "description": "Black, men's long sleeve shirt with Marcus Aurelius's quote",
+       "price": 14.95,
+       "category": 4,
+       "philosopher": 3,
+       "image": "2-men-long-shirt-ma.jpg"
+   }
+},
+{
+   "pk": 18,
+   "model": "products.product",
+   "fields": {
+       "sku": "ssMLS08",
+       "name": "3-men-long-shirt-ma",
+       "description":"Black, men's long sleeve shirt with Marcus Aurelius's quote ",
+       "price": 13.35,
+       "category": 4,
+       "philosopher": 3,
+       "image": "3-men-long-shirt-ma.jpg"
+   }
+}, {
+   "pk": 19,
+   "model": "products.product",
+   "fields": {
+       "sku": "ssMLS09",
+       "name": "4-men-long-shirt-p",
+       "description": "Navy blue, men's long sleeve shirt with Plato's quote",
+       "price": 14.95,
+       "category": 4,
+       "philosopher": 5,
+       "image": "4-men-long-shirt-p.jpg"
+   }
+},
+{
+   "pk": 20,
+   "model": "products.product",
+   "fields": {
+       "sku": "ssMLS10",
+       "name": "5-men-long-shirt-ma",
+       "description": "Hunter's green, men's long sleeve shirt with Marcus Aurelius's quote ",
+       "price": 13.35,
+       "category": 4,
+       "philosopher": 3,
+       "image": "5-men-long-shirt-ma.jpg"
+   }
+}, 
+{
+   "pk": 21,
+   "model": "products.product",
+   "fields": {
+       "sku": "ssULS01",
+       "name": " 1-unisex-long-sleeve-shirt-blank",
+       "description": "White, unisex long sleeve shirt",
+       "price": 12.95,
+       "category": 3,
+       "rating": 2.5,
+       "image": "1-unisex-long-sleeve-shirt-blank.jpg"
+   }
+},
+{
+   "pk": 22,
+   "model": "products.product",
+   "fields": {
+       "sku": "ssULS02",
+       "name": "2-unisex-long-sleeve-shirt-blank",
+       "description": "White, unisex long sleeve shirt",
+       "price": 12.95,
+       "category": 3,
+       "rating": 2.5,
+       "image": "2-unisex-long-sleeve-shirt-blank.jpg"
+   }
+},
+{
+   "pk": 23,
+   "model": "products.product",
+   "fields": {
+       "sku": "ssULS03",
+       "name": "3-unisex-long-sleeve-shirt-blank",
+       "description": "White, unisex long sleeve shirt",
+       "price": 12.95,
+       "category": 3,
+       "rating": 2.5,
+       "image": "3-unisex-long-sleeve-shirt-blank.jpg"
+   }
+},
+{
+   "pk": 24,
+   "model": "products.product",
+   "fields": {
+       "sku": "ssULS04",
+       "name": "4-unisex-long-sleeve-shirt-blank",
+       "description": "Cream, unisex long sleeve shirt",
+       "price": 12.95,
+       "category": 3,
+       "rating": 2.5,
+       "image": "4-unisex-long-sleeve-shirt-blank.jpg"
+   }
+},
+{
+   "pk": 25,
+   "model": "products.product",
+   "fields": {
+       "sku": "ssULS05",
+       "name": "5-unisex-long-sleeve-shirt-blank",
+       "description": "White, unisex long sleeve shirt",
+       "price": 12.95,
+       "category": 3,
+       "rating": 2.5,
+       "image": "5-unisex-long-sleeve-shirt-blank.jpg"
+   }
+},
+{
+   "pk": 26,
+   "model": "products.product",
+   "fields": {
+       "sku": "ssULS06",
+       "name": "6-unisex-long-sleeve-shirt-blank",
+       "description": "Cream, unisex long sleeve shirt",
+       "price": 12.95,
+       "category": 3,
+       "rating": 2.5,
+       "image": "6-unisex-long-sleeve-shirt-blank.jpg"
+   }
+},
+{
+   "pk": 27,
+   "model": "products.product",
+   "fields": {
+       "sku": "ssULS07",
+       "name": "7-unisex-long-sleeve-shirt-blank",
+       "description": "White, unisex long sleeve shirt",
+       "price": 12.95,
+       "category": 3,
+       "rating": 2.5,
+       "image": "7-unisex-long-sleeve-shirt-blank.jpg"
+   }
+},
+{
+   "pk": 28,
+   "model": "products.product",
+   "fields": {
+       "sku": "ssULS08",
+       "name": "8-unisex-long-sleeve-shirt-blank",
+       "description": "White, unisex long sleeve shirt",
+       "price": 12.95,
+       "category": 3,
+       "rating": 2.5,
+       "image": "8-unisex-long-sleeve-shirt-blank.jpg"
+   }
+},
+{
+   "pk": 29,
+   "model": "products.product",
+   "fields": {
+       "sku": "ssULS09",
+       "name": "9-unisex-long-sleeve-shirt-blank",
+       "description": "Dark blue, unisex long sleeve shirt",
+       "price": 12.95,
+       "category": 3,
+       "rating": 2.5,
+       "image": "9-unisex-long-sleeve-shirt-blank.jpg"
+   }
+},
+{
+   "pk": 30,
+   "model": "products.product",
+   "fields": {
+       "sku": "ssULS10",
+       "name": "10-unisex-long-sleeve-shirt-blank",
+       "description": "White, unisex long sleeve shirt",
+       "price": 12.95,
+       "category": 3,
+       "rating": 2.5,
+       "image": "10-unisex-long-sleeve-shirt-blank.jpg"
+   }
+},
+{
+   "pk": 31,
+   "model": "products.product",
+   "fields": {
+       "sku": "ssULS11",
+       "name": "11-unisex-long-sleeve-shirt-blank",
+       "description": "White, unisex long sleeve shirt",
+       "price": 12.95,
+       "category": 3,
+       "rating": 2.5,
+       "image": "11-unisex-long-sleeve-shirt-blank.jpg"
+   }
+},
+{
+   "pk": 32,
+   "model": "products.product",
+   "fields": {
+       "sku": "ssULS12",
+       "name": "12-unisex-long-sleeve-shirt-blank",
+       "description": "White, unisex long sleeve shirt",
+       "price": 12.95,
+       "category": 3,
+       "rating": 2.5,
+       "image": "12-unisex-long-sleeve-shirt-blank.jpg"
+   }
+},
+{
+   "pk": 33,
+   "model": "products.product",
+   "fields": {
+       "sku": "ssULS13",
+       "name": "13-unisex-long-sleeve-shirt-blank",
+       "description": "Grey, unisex long sleeve shirt",
+       "price": 12.95,
+       "category": 3,
+       "rating": 2.5,
+       "image": "13-unisex-long-sleeve-shirt-blank.jpg"
+   }
+},
+{
+   "pk": 34,
+   "model": "products.product",
+   "fields": {
+       "sku": "ssULS14",
+       "name": "14-unisex-long-sleeve-shirt-blank",
+       "description": "Pink, unisex long sleeve shirt",
+       "price": 12.95,
+       "category": 3,
+       "rating": 2.5,
+       "image": "14-unisex-long-sleeve-shirt-blank.jpg"
+   }
+},
+{
+   "pk": 35,
+   "model": "products.product",
+   "fields": {
+       "sku": "ssULS15",
+       "name": "15-unisex-long-sleeve-shirt-blank",
+       "description": "Blue with pink logo, unisex long sleeve shirt",
+       "price": 12.95,
+       "category": 3,
+       "rating": 2.5,
+       "image": "15-unisex-long-sleeve-shirt-blank.jpg"
+   }
+},
+{
+   "pk": 36,
+   "model": "products.product",
+   "fields": {
+       "sku": "ssULS16",
+       "name": "16-unisex-long-sleeve-shirt-blank",
+       "description": "Red and white horizontal lines design, unisex long sleeve shirt",
+       "price": 12.95,
+       "category": 3,
+       "rating": 2.5,
+       "image": "16-unisex-long-sleeve-shirt-blank.jpg"
+   }
+},
+{
+   "pk": 37,
+   "model": "products.product",
+   "fields": {
+       "sku": "ssULS17",
+       "name": "17-unisex-long-sleeve-shirt-blank",
+       "description": "Black, unisex long sleeve shirt",
+       "price": 12.95,
+       "category": 3,
+       "rating": 2.5,
+       "image": "17-unisex-long-sleeve-shirt-blank.jpg"
+   }
+},
+{
+   "pk": 38,
+   "model": "products.product",
+   "fields": {
+       "sku": "ssULS18",
+       "name": "18-unisex-long-sleeve-shirt-blank",
+       "description": "Black, unisex long sleeve shirt",
+       "price": 12.95,
+       "category": 3,
+       "rating": 2.5,
+       "image": "18-unisex-long-sleeve-shirt-blank.jpg"
+   }
+},
+{
+   "pk": 39,
+   "model": "products.product",
+   "fields": {
+       "sku": "ssULS19",
+       "name": "19-unisex-long-sleeve-shirt-blank",
+       "description": "Grey and red horizontal lines design, unisex long sleeve shirt",
+       "price": 12.95,
+       "category": 3,
+       "rating": 2.5,
+       "image": "19-unisex-long-sleeve-shirt-blank.jpg"
+   }
+},
+{
+   "pk": 40,
+   "model": "products.product",
+   "fields": {
+       "sku": "ssULS20",
+       "name": "20-unisex-long-sleeve-shirt-blank",
+       "description": "White, unisex long sleeve shirt",
+       "price": 12.95,
+       "category": 3,
+       "rating": 2.5,
+       "image": "20-unisex-long-sleeve-shirt-blank.jpg"
+   }
+},
+{
+   "pk": 41,
+   "model": "products.product",
+   "fields": {
+       "sku": "ssWS01",
+       "name": "1-women-shirt-as",
+       "description": "White, women's shirt with Arthur Schopenhauer's quote",
+       "price": 12.95,
+       "category": 2,
+       "philosopher": 1,
+       "image": "1-women-shirt-as.jpg"
+   }
+},
+{
+   "pk": 42,
+   "model": "products.product",
+   "fields": {
+       "sku": "ssWS02",
+       "name": "2-women-shirt-as",
+       "description": "White, women's tank top shirt with Arthur Schopenhauer's quote",
+       "price": 12.95,
+       "category": 2,
+       "philosopher": 1,
+       "image": "2-women-shirt-as.jpg"
+   }
+},
+{
+   "pk": 43,
+   "model": "products.product",
+   "fields": {
+       "sku": "ssWS03",
+       "name": "1-women-shirt-ik",
+       "description": "White, women's shirt with Immanuel Kant's quote",
+       "price": 12.95,
+       "category": 2,
+       "philosopher": 4,
+       "image": "1-women-shirt-ik.jpg"
+   }
+},
+{
+   "pk": 44,
+   "model": "products.product",
+   "fields": {
+       "sku": "ssWS04",
+       "name": "2-women-shirt-ik",
+       "description": "White, women's shirt with Immanuel Kant's quote",
+       "price": 12.95,
+       "category": 2,
+       "philosopher": 4,
+       "image": "2-women-shirt-ik.jpg"
+   }
+},
+{
+   "pk": 45,
+   "model": "products.product",
+   "fields": {
+       "sku": "ssWS05",
+       "name": "3-women-shirt-ik",
+       "description": "White, women's shirt with Immanuel Kant's quote",
+       "price": 12.95,
+       "category": 2,
+       "philosopher": 4,
+       "image": "3-women-shirt-ik.jpg"
+   }
+},
+{
+   "pk": 46,
+   "model": "products.product",
+   "fields": {
+       "sku": "ssWLS01",
+       "name": "1-women-long-sleeve-shirt-blank",
+       "description": "Light green, women long sleeve shirt",
+       "price": 12.95,
+       "category": 5,
+       "rating": 2.5,
+       "image": "1-women-long-sleeve-shirt-blank.jpg"
+   }
+},
+{
+   "pk": 47,
+   "model": "products.product",
+   "fields": {
+       "sku": "ssWLS02",
+       "name": "2-women-long-sleeve-shirt-blank",
+       "description": "Grey, women long sleeve shirt",
+       "price": 12.95,
+       "category": 5,
+       "rating": 2.5,
+       "image": "2-women-long-sleeve-shirt-blank.jpg"
+   }
+},
+{
+   "pk": 48,
+   "model": "products.product",
+   "fields": {
+       "sku": "ssWLS03",
+       "name": "3-women-long-sleeve-shirt-blank",
+       "description": "Cream, women long sleeve shirt",
+       "price": 12.95,
+       "category": 5,
+       "rating": 2.5,
+       "image": "3-women-long-sleeve-shirt-blank.jpg"
+   }
+},
+{
+   "pk": 49,
+   "model": "products.product",
+   "fields": {
+       "sku": "ssWLS04",
+       "name": "4-women-long-sleeve-shirt-blank",
+       "description": "Light blue, women long sleeve shirt",
+       "price": 12.95,
+       "category": 5,
+       "rating": 2.5,
+       "image": "4-women-long-sleeve-shirt-blank.jpg"
+   }
+},
+{
+   "pk": 50,
+   "model": "products.product",
+   "fields": {
+       "sku": "ssWLS05",
+       "name": "5-women-long-sleeve-shirt-blank",
+       "description": "Yellow, women long sleeve shirt",
+       "price": 12.95,
+       "category": 5,
+       "rating": 2.5,
+       "image": "5-women-long-sleeve-shirt-blank.jpg"
+   }
+},
+{
+   "pk": 51,
+   "model": "products.product",
+   "fields": {
+       "sku": "ssWLS06",
+       "name": "1-women-long-sleeve-shirt-ik",
+       "description": "Black and white horizontal lines, women long sleeve shirt with Immanuel Kant's quote",
+       "price": 12.95,
+       "category": 5,
+       "philosopher": 4,
+       "image": "1-women-long-sleeve-shirt-ik.jpg"
+   }
+},
+{
+   "pk": 52,
+   "model": "products.product",
+   "fields": {
+       "sku": "ssWLS07",
+       "name": "2-women-long-sleeve-shirt-s",
+       "description": "Pink, women long sleeve shirt with Seneca's quote",
+       "price": 12.95,
+       "category": 5,
+       "philosopher": 2,
+       "image": "2-women-long-sleeve-shirt-s.jpg"
+   }
+},
+{
+   "pk": 53,
+   "model": "products.product",
+   "fields": {
+       "sku": "ssWLS08",
+       "name": "3-women-long-sleeve-shirt-ma",
+       "description": "Light blue, women long sleeve shirt with Marcus Aurelius's quote",
+       "price": 12.95,
+       "category": 5,
+       "philosopher": 3,
+       "image": "3-women-long-sleeve-shirt-ma.jpg"
+   }
+},
+{
+   "pk": 54,
+   "model": "products.product",
+   "fields": {
+       "sku": "ssWLS09",
+       "name": "4-women-long-sleeve-shirt-ma",
+       "description": "Salmon color and white horizontal lines, women long sleeve shirt with Marcus Aurelius's quote",
+       "price": 12.95,
+       "category": 5,
+       "philosopher": 3,
+       "image": "4-women-long-sleeve-shirt-ma.jpg"
+   }
+},
+{
+   "pk": 55,
+   "model": "products.product",
+   "fields": {
+       "sku": "ssWLS09",
+       "name": "5-women-long-sleeve-shirt-p",
+       "description": "White, women long sleeve shirt with Plato's quote",
+       "price": 12.95,
+       "category": 5,
+       "philosopher": 5,
+       "image": "5-women-long-sleeve-shirt-p.jpg"
+   }
+},
+{
+   "pk": 56,
+   "model": "products.product",
+   "fields": {
+       "sku": "ssWS06",
+       "name": "1-women-shirt-ma",
+       "description": "White, women's shirt with Marcus Aurelius's quote",
+       "price": 18.95,
+       "category": 5,
+       "philosopher": 3,
+       "image": "1-women-shirt-ma.jpg"
+   }
+},
+{
+   "pk": 57,
+   "model": "products.product",
+   "fields": {
+       "sku": "ssWS07",
+       "name": "2-women-shirt-ma",
+       "description": "White, women's shirt with Marcus Aurelius's quote",
+       "price": 18.95,
+       "category": 5,
+       "philosopher": 3,
+       "image": "2-women-shirt-ma.jpg"
+   }
+},
+{
+   "pk": 58,
+   "model": "products.product",
+   "fields": {
+       "sku": "ssWS08",
+       "name": "1-women-shirt-p",
+       "description": "White, women's shirt with Plato's quote",
+       "price": 14.95,
+       "category": 5,
+       "philosopher": 5,
+       "image": "1-women-shirt-p.jpg"
+   }
+},
+{
+   "pk": 59,
+   "model": "products.product",
+   "fields": {
+       "sku": "ssWS09",
+       "name": "2-women-shirt-p",
+       "description": "Light pink, women's shirt with Plato's quote",
+       "price": 14.95,
+       "category": 5,
+       "philosopher": 5,
+       "image": "2-women-shirt-p.jpg"
+   }
+},
+{
+   "pk": 60,
+   "model": "products.product",
+   "fields": {
+       "sku": "ssWS10",
+       "name": "1-women-shirt-s",
+       "description": "Light green, women's shirt with Seneca's quote",
+       "price": 12.95,
+       "category": 5,
+       "philosopher": 2,
+       "image": "1-women-shirt-s.jpg"
+   }
+},
+{
+   "pk": 61,
+   "model": "products.product",
+   "fields": {
+       "sku": "ssWS11",
+       "name": "2-women-shirt-s",
+       "description": "Light grey, women's shirt with Seneca's quote",
+       "price": 12.95,
+       "category": 5,
+       "philosopher": 2,
+       "image": "2-women-shirt-s.jpg"
+   }
+}
+]
