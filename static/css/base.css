@@ -12,7 +12,8 @@ body {
     width: fit-content;
 }
 .container-fluid {
-    align-self: center;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 .navbar-brand {
@@ -27,8 +28,9 @@ body {
     background: white;
     z-index: -1;
     position: fixed;
-
 }
+
+
 
 /* -------------------------------- Media Queries */
 
