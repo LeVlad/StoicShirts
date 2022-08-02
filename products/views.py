@@ -22,7 +22,7 @@ def all_products(request):
 
         if "philosopher" in request.GET:
             philosophers = request.GET['philosopher'].split(',')
-            products = products.filter(category__name__in=philosophers)
+            products = products.filter(philosopher__name__in=philosophers)
             philosophers = Philosopher.objects.filter(name__in=philosophers)
 
         
