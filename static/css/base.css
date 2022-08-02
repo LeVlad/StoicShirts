@@ -15,7 +15,10 @@ body {
     padding-left: 0;
     padding-right: 0;
 }
-
+.logo{
+   text-transform: uppercase;
+   color:darkgray;
+}
 .navbar-brand {
     text-transform: uppercase;
 }
