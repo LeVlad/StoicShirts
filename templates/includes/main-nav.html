@@ -11,8 +11,19 @@
           <li class="nav-item active">
             <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="{% url 'products' %}">Products</a>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Products
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a href="{% url 'products' %}?sort=price&direction=asc" class="dropdown-item">By Price</a>
+            <a href="{% url 'products' %}?sort=rating&direction=desc" class="dropdown-item ">By Rating</a>
+            <a href="{% url 'products' %}?sort=category&direction=asc" class="dropdown-item ">By Category</a>
+            <a href="{% url 'products' %}?sort=philosopher&direction=desc" class="dropdown-item ">By Philosopher</a>
+            <a href="{% url 'products' %}" class="dropdown-item ">All</a>
+            
+          </div>
           </li>
           <li class="nav-item search-bar">
             <form id="search-bar" method="GET" action="{% url 'products' %}" class="form-inline my-2 my-lg-0">
