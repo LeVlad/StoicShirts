@@ -43,12 +43,12 @@
       "model": "products.product",
       "fields": {
         "sku": "ssMS04",
-        "name": "01MENSHIRTIK",
+        "name": "02MENSHIRTIK",
         "description": "Black, men's shirt with Immanuel Kant's quote",
         "price": 14.95,
         "category": 1,
         "philosopher": 4,
-        "image": "01MENSHIRTIK.jpg"
+        "image": "02MENSHIRTIK.jpg"
       }
     },
     {
@@ -255,7 +255,7 @@
         "description": "Hunter's green, men's long sleeve shirt with Marcus Aurelius's quote ",
         "price": 13.35,
         "category": 4,
-        "phiosopher": 3,
+        "philosopher": 3,
         "image": "05MENLONGSLEEVEMA.jpg"
       }
     },
