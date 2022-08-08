@@ -16,19 +16,19 @@
               data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Products
             </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <div class="products-dropdown dropdown-menu" aria-labelledby="navbarDropdown">
             <a href="{% url 'products' %}?sort=price&direction=asc" class="dropdown-item">By Price</a>
             <a href="{% url 'products' %}?sort=rating&direction=desc" class="dropdown-item ">By Rating</a>
             <a href="{% url 'products' %}?sort=category&direction=asc" class="dropdown-item ">By Category</a>
-            <a href="{% url 'products' %}?sort=philosopher&direction=desc" class="dropdown-item ">By Philosopher</a>
+            <a href="{% url 'products' %}?sort=philosopher&direction=asc" class="dropdown-item ">By Philosopher</a>
             <a href="{% url 'products' %}" class="dropdown-item ">All</a>
             
           </div>
           </li>
           <li class="nav-item search-bar">
             <form id="search-bar" method="GET" action="{% url 'products' %}" class="form-inline my-2 my-lg-0">
-              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+              <input class="form-control mr-sm-2" type="search" name="q" placeholder="Search our products" aria-label="Search">
+              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Find</button>
             </form>
           </li>
           <li class="nav-item dropdown">
