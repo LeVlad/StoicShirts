@@ -7,6 +7,9 @@ body {
     height: calc(100vh - 164px);
     
 }
+.delivery-banner{
+    position: fixed;
+}
 
 .main-logo-link {
     width: fit-content;
