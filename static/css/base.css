@@ -43,8 +43,15 @@ body {
     right: 20px;
 
 }
+
+.fas, .price, .icon{
+    color:green;
+}
+.btn-bag{
+    font-weight: 500;
+}
 .btt-link {
-    cursor:grab;corn
+    cursor:pionter;
 }
 
 
