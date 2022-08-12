@@ -22,6 +22,12 @@ body {
    text-transform: uppercase;
    color:darkgray;
 }
+.header-navbar{
+    margin-top: 2rem;
+}
+.delivery-banner{
+    margin-top: 25rem;
+}
 .navbar-brand {
     text-transform: uppercase;
 }
@@ -51,7 +57,7 @@ body {
     font-weight: 500;
 }
 .btt-link {
-    cursor:pionter;
+    cursor:pointer;
 }
 
 
