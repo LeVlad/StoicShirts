@@ -16,16 +16,10 @@ class ProductForm(forms.ModelForm):
         philosophers = Philosopher.objects.all()
         p_friendly_names = [(p.id, p.get_friendly_name()) for p in philosophers] 
          
-     
         self.fields['philosopher'].choices = p_friendly_names
         for field_name, field in self.fields.items():
             field.widget.attrs['class'] = 'border-black rounded-0'
 
-
         self.fields['category'].choices = friendly_names
         for field_name, field in self.fields.items():
             field.widget.attrs['class'] = 'border-black rounded-0'
-
-
-            
-        
