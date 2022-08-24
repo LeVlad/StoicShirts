@@ -59,6 +59,8 @@ body {
 .btt-link {
     cursor:pointer;
 }
+/* ------------------------------- bootstrap toasts */
+
 .message-container {
     position: fixed;
     top: 72px;
@@ -66,11 +68,11 @@ body {
     z-index: 99999999999;
 }
 
-.toast-box {
+.custom-toast {
     overflow: visible;
 }
 
-.toast {
+.toast-capper {
     height: 2px;
 }
 
