@@ -80,6 +80,13 @@
                                             {% else %}
                                                 <small class="text-muted">No Rating</small>
                                             {% endif %}
+                                            {% if request.user.is_superuser%}
+                                            <small class="mr-3">
+                                                <a class="btn btn-success font-weight-bold"href="{% url 'edit_product' product.id %}">Edit</a>
+                                            </small>
+                                                <small><a class="btn btn-danger font-weight-bold" href="{% url 'delete_product' product.id %}">Delete</a>
+                                                </small>
+                                            {% endif %}
                                         </div>
                                     </div>
                                 </div>
@@ -110,17 +117,16 @@
             </div>
         </div>
         </div>
-        <div class="btt-button shadow-sm rounded-0 border border-black">
-            <a class="btt-link d-flex h-100">
-                <i class="fas fa-arrow-up mx-auto my-auto">Back To Top</i>
-            </a>	
-        </div>
+        
+        <a id="back-to-top" href="#" class="btn btn-success btn-lg back-to-top" role="button">
+            <i class="fas fa-chevron-up"></i></a>
+        
 {% endblock %}
 
 {% block postloadjs %}
     {{ block.super }}
     <script type="text/javascript">
-		$('.btt-link').click(function(e) {
+		$('.back-to-top').click(function(e) {
 			window.scrollTo(0,0)
 		})
 	</script>
@@ -147,4 +153,5 @@
             }
         })
     </script>
+
 {% endblock %}

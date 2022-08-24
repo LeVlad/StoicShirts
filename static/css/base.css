@@ -56,7 +56,11 @@ body {
 .btn-bag{
     font-weight: 500;
 }
-.btt-link {
+.back-to-top {
+        position: fixed;
+        bottom: 25px;
+        right: 25px;
+        display: block;
     cursor:pointer;
 }
 /* ------------------------------- bootstrap toasts */
