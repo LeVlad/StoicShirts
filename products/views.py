@@ -7,7 +7,6 @@ from .models import Product, Category, Philosopher
 from .forms import ProductForm
 
 
-
 def all_products(request):
     """ A view to show all products, including sorting and search queries """
 
@@ -44,7 +43,6 @@ def all_products(request):
             philosophers = request.GET['philosopher'].split(',')
             products = products.filter(philosopher__name__in=philosophers)
             philosophers = Philosopher.objects.filter(name__in=philosophers)
-
 
         if 'q' in request.GET:
             query = request.GET['q']

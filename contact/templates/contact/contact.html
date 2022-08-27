@@ -1,2 +1,11 @@
 {% extends "base.html" %}
 {% load static %}
+
+<h1>Contact Us</h1>
+<form method="post">
+    {% csrf_token %}
+    {{ form | crispy}}
+    <div class="form-actions">
+      <button type="submit">Send</button>
+    </div>
+</form>
