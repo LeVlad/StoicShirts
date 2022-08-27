@@ -16,7 +16,7 @@ def all_products(request):
     philosophers = None
     sort = None
     direction = None
-    
+
 
     if request.GET:
         if "sort" in request.GET:
@@ -32,7 +32,7 @@ def all_products(request):
                 direction = request.GET['direction']
                 if "direction" == 'desc':
                     sortkey = f'-{sortkey}'
-            products = products.order_by(sortkey) 
+            products = products.order_by(sortkey)
  
         if "category" in request.GET:
             categories = request.GET['category'].split(',')
@@ -60,7 +60,7 @@ def all_products(request):
         'current_categories': categories,
         'current_philosophers': philosophers,
         'current_sorting': current_sorting,
-        
+
     }
 
     return render(request, 'products/products.html', context)
