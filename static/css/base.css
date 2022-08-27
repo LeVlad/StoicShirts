@@ -22,6 +22,19 @@ body {
    text-transform: uppercase;
    color:darkgray;
 }
+.overlay {
+    height:100%;
+    width:100%;
+    background: white;
+    z-index: -1;
+    position: fixed;
+}
+
+.fas, .price, .icon{
+    color:green;
+}
+
+/*------------ NavBar------------ */
 .header-navbar{
     margin-top: 2rem;
 }
@@ -34,24 +47,16 @@ body {
 #seachbar {
     padding-top: 170px;
 }
-.overlay {
-    height:100%;
-    width:100%;
-    background: white;
-    z-index: -1;
-    position: fixed;
-}
-.btt-button{
+
+
+/*------------ Buttons ------------ */
+.btt-button {
     width: 35px;
     height: 35px;
     position: fixed;
     bottom: 15px;
     right: 20px;
 
-}
-
-.fas, .price, .icon{
-    color:green;
 }
 .btn-bag{
     font-weight: 500;
@@ -63,7 +68,37 @@ body {
         display: block;
     cursor:pointer;
 }
-/* ------------------------------- bootstrap toasts */
+
+
+/*------------ Product Form------------ */
+
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+
+.btn-file input[type="file"] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.custom-checkbox .custom-control-label::before {
+    border-radius: 0;
+    border-color: #dc3545;
+}
+
+.custom-checkbox .custom-control-input:checked~.custom-control-label::before {
+    background-color: #dc3545;
+    border-color: #dc3545;
+    border-radius: 0;
+}
+
+/*------------ Bootstrap Toasts------------ */
 
 .message-container {
     position: fixed;
@@ -80,7 +115,7 @@ body {
     height: 2px;
 }
 
-/* -------------------------------- Media Queries */
+/*------------ Media Queries ----------- */
 
 /* Slightly larger container on xl screens */
 @media (min-width: 1200px) {
