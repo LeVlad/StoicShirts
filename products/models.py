@@ -1,5 +1,5 @@
 from django.db import models
-from django.contrib.auth.models import User
+from profiles.models import UserProfile
 
 
 class Category(models.Model):
@@ -41,10 +41,10 @@ class Product(models.Model):
     def __str__(self):
         return self.name
 
-class ShirtsReview(models.Model):
-    product = models.ForeignKey('Product', related_name='reviews', on_delete=models.CASCADE)
-    user = models.ForeignKey('profiles.UserProfile', related_name='reviews', on_delete=models.CASCADE)
 
+class Review(models.Model):
+    product = models.ForeignKey('Product', on_delete=models.CASCADE)
+    user = models.ForeignKey('profiles.UserProfile', on_delete=models.CASCADE)
     content = models.TextField(blank=True, null=True)
-    stars = models.IntegerField()
+    rating = models.DecimalField(max_digits=6, decimal_places=2, null=True, blank=True)
     date_added = models.DateTimeField(auto_now_add=True)

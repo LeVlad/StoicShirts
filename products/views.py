@@ -3,7 +3,7 @@ from django.contrib import messages
 from django.contrib.auth.decorators import login_required
 from django.db.models import Q
 from django.db.models.functions import Lower
-from .models import Product, Category, Philosopher, ShirtsReview
+from .models import Product, Category, Philosopher, Review
 from .forms import ProductForm
 
 
@@ -150,9 +150,9 @@ def add_review(request, product_id):
     """ A view to add a review """
     product = get_object_or_404(request, pk=product_id)
     if request.method == 'POST' and request.user.is_authenticated:
-        stars = request.POST.get('stars', 2)
+        rating = request.POST.get('rating', 2)
         content = request.POST.get('content', '')
-
-        review = ShirtsReview.objects.create(product=product_id, user=request.user, content=content)
-        
-    return redirect(request, product_id)
+        review = Review.objects.create(product=product_id, user=request.user, content=content)
+        return render(request, product_id, review)
+    else:
+        return render(reverse, 'product_details')

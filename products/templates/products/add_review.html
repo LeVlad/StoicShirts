@@ -136,13 +136,13 @@
         {% endfor %}
         <div class="notification">
             {% if request.user.is_authenticated %}
-            <form method="POST" action="{% url 'add_review' %}">
+            <form method="POST" action="{% url 'review' %}">
                 {% csrf_token %}
                 <div class="field">
                     <label>Stars</label>
                     <div class="control">
                         <div class="select">
-                            <select name="stars">
+                            <select name="rating">
                                 <option value="1">1</option>
                                 <option value="2" selected>2</option>
                                 <option value="3">3</option>
@@ -159,13 +159,12 @@
                         <textarea class="textarea" name="content" id="shirts-review"></textarea>
                     </div>
                 </div>
-
-                <div class="field">
-                    <div class="btn btn-success" type="submit">Submit</div>
+                <div class="text-right">
+                    <button class="btn btn-success font-weight-bold text-upper" role="button" value="review" type="submit">Add review</button>
                 </div>
             </form>
             {% else %}
-            <p>Please sign in <a class="mr-2" href="{% url 'account_login' %}">here</a>to add review!</p>
+            <p>Please sign in <a class="mr-2" href="{% url 'account_login' %}">here</a>to add a review!</p>
         </div>
         {% endif %}
     </div>

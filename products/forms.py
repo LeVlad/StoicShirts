@@ -1,5 +1,5 @@
 from django import forms
-from .models import Product, Category, Philosopher
+from .models import Product, Category, Philosopher, Review
 from .widgets import CustomClearableFileInput
 
 
@@ -21,8 +21,15 @@ class ProductForm(forms.ModelForm):
 
         self.fields['philosopher'].choices = p_friendly_names
         for field_name, field in self.fields.items():
-            field.widget.attrs['class'] = 'border-black rounded-0'
+            field.widget.attrs['class'] = 'rounded-0'
 
         self.fields['category'].choices = friendly_names
         for field_name, field in self.fields.items():
-            field.widget.attrs['class'] = 'border-black rounded-0'
+            field.widget.attrs['class'] = 'rounded-0'
+
+
+class ReviewForm(forms.ModelForm):
+
+    class Meta:
+        model = Review
+        fields = '__all__'
