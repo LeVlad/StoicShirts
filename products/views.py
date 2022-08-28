@@ -3,7 +3,7 @@ from django.contrib import messages
 from django.contrib.auth.decorators import login_required
 from django.db.models import Q
 from django.db.models.functions import Lower
-from .models import Product, Category, Philosopher
+from .models import Product, Category, Philosopher, ShirtsReview
 from .forms import ProductForm
 
 
@@ -68,7 +68,6 @@ def all_products(request):
 
 def product_detail(request, product_id):
     """ A view to show individual product details """
-
     product = get_object_or_404(Product, pk=product_id)
 
     context = {
@@ -145,3 +144,15 @@ def delete_product(request, product_id):
     product.delete()
     messages.success(request, 'Product successfully deleted!')
     return redirect((reverse, 'products'))
+
+
+def add_review(request, product_id):
+    """ A view to add a review """
+    product = get_object_or_404(request, pk=product_id)
+    if request.method == 'POST' and request.user.is_authenticated:
+        stars = request.POST.get('stars', 2)
+        content = request.POST.get('content', '')
+
+        review = ShirtsReview.objects.create(product=product_id, user=request.user, content=content)
+        
+        return redirect(request, product_id)

@@ -1,4 +1,6 @@
 from django.db import models
+from profiles.models import UserProfile
+
 
 class Category(models.Model):
     name = models.CharField(max_length=254)

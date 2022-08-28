@@ -46,6 +46,7 @@
                     <small class="text-muted">No Rating</small>
                 {% endif %}
 
+                
                 {% if request.user.is_superuser%}
         <small class="mr-3">
         <a class="btn btn-success font-weight-bold" href="{% url 'edit_product' product.id %}">Edit</a>
@@ -116,6 +117,61 @@
         </div>
     </div>
 </div>
+
+<div class="review-wrapper ml-2">
+    <h4 class="reviews">Reviews</h4>
+    {% for review in product.reviews.all %}
+    <div class="notification">
+        <p>
+            <strong>Date:</strong>{{ review.date_added|date:"d-m-Y" }},
+            <strong>Stars:</strong>{{ review.stars }}
+        </p>
+
+        {{ review.content }}
+
+        {% empty %}
+        <div class="notification">
+            So far no reviews
+        </div>
+        {% endfor %}
+        <div class="notification">
+            {% if request.user.is_authenticated %}
+            <form method="POST" action=".">
+                {% csrf_token %}
+                <div class="field">
+                    <label>Stars</label>
+                    <div class="control">
+                        <div class="select">
+                            <select name="stars">
+                                <option value="1">1</option>
+                                <option value="2" selected>2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                            </select>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="field">
+                    <label>Content</label>
+                    <div class="control">
+                        <textarea class="textarea" name="content" id="shirts-review"></textarea>
+                    </div>
+                </div>
+
+                <div class="field">
+                    <div class="btn btn-success" type="submit">Submit</div>
+                </div>
+            </form>
+            {% else %}
+            <p>Please sign in <a class="mr-2" href="{% url 'account_login' %}">here</a>to add review!</p>
+        </div>
+        {% endif %}
+    </div>
+</div>
+</div>
+
 {% endblock %}
 {% block postloadjs %}
 {{ block.super }}
