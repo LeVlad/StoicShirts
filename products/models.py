@@ -48,4 +48,3 @@ class ShirtsReview(models.Model):
     content = models.TextField(blank=True, null=True)
     stars = models.IntegerField()
     date_added = models.DateTimeField(auto_now_add=True)
-     

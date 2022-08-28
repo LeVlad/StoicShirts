@@ -117,6 +117,7 @@
         </div>
     </div>
 </div>
+
 <div class="review-wrapper ml-2">
     <h4 class="reviews">Reviews</h4>
     {% for review in product.reviews.all %}
@@ -135,7 +136,7 @@
         {% endfor %}
         <div class="notification">
             {% if request.user.is_authenticated %}
-            <form method="POST" action=".">
+            <form method="POST" action="{% url 'add_review' %}">
                 {% csrf_token %}
                 <div class="field">
                     <label>Stars</label>

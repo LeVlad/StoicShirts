@@ -155,4 +155,4 @@ def add_review(request, product_id):
 
         review = ShirtsReview.objects.create(product=product_id, user=request.user, content=content)
         
-        return redirect(request, product_id)
+    return redirect(request, product_id)
