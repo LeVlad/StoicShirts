@@ -10,12 +10,13 @@ class Category(models.Model):
         return self.name
 
     def get_friendly_name(self):
-        return self.friendly_name    
+        return self.friendly_name
+
 
 class Philosopher(models.Model):
     name = models.CharField(max_length=254)
     friendly_name = models.CharField(max_length=254, null=True, blank=True)
- 
+
     def __self__(self):
         return self.name
 

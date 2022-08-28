@@ -1,13 +1,12 @@
 from django.contrib import admin
-# from .models import StoicQuotes
+from .models import Quote
 
 
-# class StoicQuotesAdmin(admin.ModelAdmin):
-#     list_display = (
-#         "name",
-#         "custom_name",
-#         "quotes",
-#     )
+class QuoteAdmin(admin.ModelAdmin):
+    list_display = (
+        "custom_name",
+        "quotes",
+    )
 
 
-# admin.site.register(StoicQuotes, StoicQuotesAdmin)
+admin.site.register(Quote, QuoteAdmin)
