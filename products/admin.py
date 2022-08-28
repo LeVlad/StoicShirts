@@ -30,6 +30,17 @@ class PhilosopherAdmin(admin.ModelAdmin):
     )
 
 
+class ReviewAdmin(admin.ModelAdmin):
+    list_display = (
+        "product",
+        "user",
+        "rating",
+        "content",
+        "date_added",
+    )
+    ordering = ('rating',)
+
+
 admin.site.register(Product, ProductAdmin)
 admin.site.register(Category, CategoryAdmin)
 admin.site.register(Philosopher, PhilosopherAdmin)

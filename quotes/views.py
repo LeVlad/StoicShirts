@@ -1,11 +1,13 @@
 from django.shortcuts import render, get_list_or_404
-from.models import Philosopher
 
-def quotes(request):
-    quotes = None
-    philosopher = get_list_or_404(Philosopher)
+
+
+def get_all_quotes(request):
+    """ A view to get all the stoic quotes """
+    quotes = StoicQuotes.objects.all()
+    stoic = get_list_or_404('stoic')
     context = {
-        'philosopher': philosopher,
+        'stoic': stoic,
         'quotes': quotes,
     }
     return render(request, 'quotes/quotes.html', context)

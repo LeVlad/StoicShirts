@@ -38,7 +38,7 @@ class Product(models.Model):
     image = models.ImageField(null=True, blank=True)
 
     def __str__(self):
-        return self.name
+        return str(self.name)
 
 
 class Review(models.Model):
@@ -47,3 +47,6 @@ class Review(models.Model):
     content = models.TextField(blank=True, null=True)
     rating = models.DecimalField(max_digits=6, decimal_places=2, null=True, blank=True)
     date_added = models.DateTimeField(auto_now_add=True)
+
+    def __str__(self):
+        return str(self.content)

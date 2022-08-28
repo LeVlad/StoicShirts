@@ -1,0 +1,47 @@
+[
+   {
+     "pk": 1,
+     "model": "quotes.quote",
+     "fields": {
+       "name": "stoic_arthur_schopenhauer",
+       "custom_name": "Arthur Schopenhauer",
+       "quotes": "Talent hits a target no one else can hit. Genius hits a target no one else can see."
+     }
+   },
+   {
+     "pk": 2,
+     "model": "quotes.quote",
+     "fields": {
+       "name": "stoic_seneca",
+       "custom_name": "Seneca",
+       "quotes": "Luck is what happens when preparation meets opportunity."
+     }
+   },
+   {
+     "pk": 3,
+     "model": "quotes.quote",
+     "fields": {
+       "name": "stoic_marcus_aurelius",
+       "custom_name": "Marcus Aurelius",
+       "quotes": "You have power over your mind, not outside events. Realize this, and you will find strength."
+     }
+   },
+   {
+     "pk": 4,
+     "model": "quotes.quote",
+     "fields": {
+       "name": "stoic_immanuel_kant",
+       "custom_name": "Immanuel Kant",
+       "quotes": "Rules for happiness: something to do, someone to love, something to hope for."
+     }
+   },
+   {
+     "pk": 5,
+     "model": "quotes.quote",
+     "fields": {
+       "name": "stoic_plato",
+       "custom_name": "Plato",
+       "quotes": "Books give a soul to the universe, wings to the mind, flight to the imagination, and life to everything."
+     }
+   }
+ ]

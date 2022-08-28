@@ -1,7 +1,7 @@
 from django.db import models
-from products.models import Philosopher
 
 
-class StoicQuotes(models.Model):
-    stoic = Philosopher()
-    most_popular = models.IntegerField()
+class Quote(models.Model):
+
+    custom_name = models.CharField(max_length=120)
+    quotes = models.TextField(max_length=254)
