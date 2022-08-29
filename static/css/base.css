@@ -7,6 +7,7 @@ body {
     height: calc(100vh - 164px);
     
 }
+
 .delivery-banner{
     position: fixed;
 }
@@ -53,6 +54,12 @@ body {
     margin-left: 7.5rem;
 }
 
+/*------------ Margin Top------------ */
+.margin-top-left {
+    margin-top: 5.5rem;
+    margin-left: 5rem;
+    
+}
 
 /*------------ Buttons ------------ */
 .btt-button {
@@ -152,4 +159,10 @@ body {
             height: calc(100vh - 116px);
         }
     }
+/* image hidden on screens with max-width 600px */
+    @media(max-width: 600px) { 
+        body{
+           background: none; 
+                  }
+      }
   }
