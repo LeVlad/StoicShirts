@@ -31,3 +31,4 @@ urlpatterns = [
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
 handler404 = 'StoicShirts22.views.handler404'
+handler500 = 'StoicShirts22.views.handler500'

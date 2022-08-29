@@ -13,8 +13,7 @@ def contactView(request):
         if form.is_valid():
             subject = form.cleaned_data["subject"]
             from_email = form.cleaned_data["from_email"]
-            message = form.cleaned_data["message"]
-            messages.success(request, 'Thank you for your message. We will contact you soon')
+            message = form.cleaned_data["message"]            
             try:
                 send_mail(subject, message, from_email, ["admin@stoicshirts22.com"])
             except BadHeaderError:
@@ -24,6 +23,5 @@ def contactView(request):
 
 
 def successView(request):
-    return HttpResponse("Success! Thank you for your message.")
-  
-   
+    messages.success(request, 'Thank you for your message. We will contact you soon')
+    return render(request, "success.html")
