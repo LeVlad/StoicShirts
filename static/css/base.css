@@ -47,6 +47,10 @@ body {
 #seachbar {
     padding-top: 170px;
 }
+/*------------ Contact Form ------------ */
+.contact-form-container{
+    margin-top: 7.5rem;
+}
 
 
 /*------------ Buttons ------------ */

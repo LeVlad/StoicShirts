@@ -1,11 +1,17 @@
 {% extends "base.html" %}
 {% load static %}
 
-<h1>Contact Us</h1>
+{% block content %}
+<div class=" contact-form-container">
+<h1 class=" contact-form mt-5">Contact Us</h1>
 <form method="post">
     {% csrf_token %}
-    {{ form | crispy}}
+    {{ form|crispy }}
     <div class="form-actions">
-      <button type="submit">Send</button>
+      <button class="btn btn-success" type="submit">Send</button>
     </div>
+
+  </div>
 </form>
+
+{% endblock %}
