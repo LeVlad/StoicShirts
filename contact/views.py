@@ -5,7 +5,7 @@ from django.shortcuts import render, redirect
 from .forms import ContactForm
 
 
-def contactView(request, exception):
+def contactView(request):
     if request.method == "GET":
         form = ContactForm()
     else:
@@ -13,15 +13,14 @@ def contactView(request, exception):
         if form.is_valid():
             subject = form.cleaned_data["subject"]
             from_email = form.cleaned_data["from_email"]
-            message = form.cleaned_data["message"]            
+            message = form.cleaned_data["message"]
             try:
                 send_mail(subject, message, from_email, ["office@stoicshirts22.com"])
             except BadHeaderError:
                 return HttpResponse("Invalid header found.")
-        return render (redirect,"success")
-    return render(request, "contact/contact.html", {"form": form})
+        return render(redirect, "success.html")
 
 
-def successView(request, exception=None):
+def successView(request):
     messages.success(request, 'Thank you for your message. We will contact you soon')
-    return render(redirect, "/success.html")
+    return HttpResponseRedirect("contact/success.hmtl")
