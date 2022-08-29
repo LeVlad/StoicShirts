@@ -24,4 +24,8 @@ def contactView(request):
 
 def successView(request):
     return render(redirect, 'contact/success.html')
+
+
+def subscribeView(request):
+    return render(redirect, 'contact/subscribe.html')
     
