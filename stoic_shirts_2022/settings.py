@@ -52,7 +52,7 @@ INSTALLED_APPS = [
     'checkout',
     'profiles',
     'contact',
-    'quotes',
+    'inspirational_quotes',
 
 
     # Other
