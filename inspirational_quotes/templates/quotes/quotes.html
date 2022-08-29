@@ -4,11 +4,19 @@
 {% block page_header %}
     <div class="container header-container">
         <div class="row">
-            <div class="col">
+            <div class="col 12 col-lg-6 ">Philosophers</div>
+             <div class="col-md-6">
+                {% for name in custom_name %}
 
-                {{ quotes}}
+                {% endfor%}
+             </div>
+             <div class="col 12 col-lg-6 text-md-right">Quotes</div>
+         </div>
+    </div>
+    <div class="container header-container">
+        <div class="row">
             </div>
-        </div>
+         </div>
     </div>
 {% endblock %}
 
@@ -18,7 +26,7 @@
         <div class="row h-100">
             <div class="col-7 col-md-6 my-auto">
                 <div class="my-5">
-                   {{ quotes }}
+                   {{ custom_name.quotes }}
                 </div>
             </div>
         </div>

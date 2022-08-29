@@ -6,7 +6,7 @@ class InspirationalQuote(models.Model):
     quote = models.TextField(max_length=254, null=True)
 
 
-IDEAS= (
+IDEAS = (
     ('w', 'Wisdom'),
     ('c', 'Courage'),
     ('m', 'Mderation'),
