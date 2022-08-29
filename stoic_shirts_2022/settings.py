@@ -53,6 +53,9 @@ INSTALLED_APPS = [
     'profiles',
     'contact',
     'inspirational_quotes',
+    'sorl.thumbnail',
+    'newsletter',
+    
 
 
     # Other
@@ -60,6 +63,10 @@ INSTALLED_APPS = [
     'django_countries',
     'storages',
 ]
+
+# Using sorl-thumbnail
+NEWSLETTER_THUMBNAIL = 'sorl-thumbnail'
+
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
