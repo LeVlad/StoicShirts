@@ -14,18 +14,20 @@ def contactView(request):
             subject = form.cleaned_data["subject"]
             from_email = form.cleaned_data["from_email"]
             message = form.cleaned_data['message']
+            messages.success(request, 'Thank you for your message. We will contact you soon.')
             try:
                 send_mail(subject, message, from_email, ["admin@example.com"])
             except BadHeaderError:
                 return HttpResponse("Invalid header found.")
             return redirect("success")
+            
     return render(request, "contact/contact.html", {"form": form})
 
 
 def successView(request):
-    return render(redirect, 'contact/success.html')
+    return render(request, 'contact/success/success.html')
 
 
 def subscribeView(request):
-    return render(redirect, 'contact/subscribe.html')
+    return render(request, 'contact/subscribe/subscribe.html')
     

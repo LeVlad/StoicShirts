@@ -53,10 +53,7 @@ INSTALLED_APPS = [
     'profiles',
     'contact',
     'inspirational_quotes',
-    'sorl.thumbnail',
-    'newsletter',
     
-
 
     # Other
     'crispy_forms',
@@ -64,8 +61,6 @@ INSTALLED_APPS = [
     'storages',
 ]
 
-# Using sorl-thumbnail
-NEWSLETTER_THUMBNAIL = 'sorl-thumbnail'
 
 
 MIDDLEWARE = [

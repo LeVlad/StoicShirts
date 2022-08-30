@@ -28,7 +28,7 @@ urlpatterns = [
     path('profile/', include('profiles.urls')),
     path('contact/', include('contact.urls')),
     path('quotes/', include('inspirational_quotes.urls')),
-    path('newsletter/', include('newsletter.urls')),
+   
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
 handler404 = 'StoicShirts22.views.handler404'
