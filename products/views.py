@@ -90,10 +90,11 @@ def add_product(request):
             messages.success(request, 'Successfully added product!')
             return redirect(reverse('product_detail', args=[product.id]))
         else:
-            messages.error(request, 'Failed to add product. Please ensure the form is valid.')
+            messages.error(request,
+                           'Failed to add product. Please ensure the form is valid.')
     else:
         form = ProductForm()
-    
+
     template = 'products/add_product.html'
     context = {
         'form': form,
@@ -136,10 +137,11 @@ def edit_product(request, product_id):
 def delete_product(request, product_id):
     """ Delete a product in the store """
     if not request.user.is_superuser:
-        messages.error(request, 'Sorry, only the site admin can access this page.')
+        messages.error(request,
+                       'Sorry, only the site admin can access this page.')
         return redirect(reverse('home'))
 
-    product = get_object_or_404(request, pk=product_id)
+    product = get_object_or_404(Product, pk=product_id)
     product.delete()
     messages.success(request, 'Product successfully deleted!')
     return redirect((reverse, 'products'))
@@ -147,11 +149,12 @@ def delete_product(request, product_id):
 
 def add_review(request, product_id):
     """ A view to add a review """
-    product = get_object_or_404(request, pk=product_id)
+    product = get_object_or_404(Product, pk=product_id)
     if request.method == 'POST' and request.user.is_authenticated:
         rating = request.POST.get('rating', 2)
         content = request.POST.get('content', '')
-        review = Review.objects.create(product=product_id, user=request.user, content=content)
+        review = Review.objects.create(product=product_id,
+                                       user=request.user, content=content)
         return render(request, product_id, review)
     else:
         return render(reverse, 'product_details')

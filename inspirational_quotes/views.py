@@ -19,4 +19,4 @@ def get_all_quotes(request):
         'quote': quote,
         'stoic_idea': stoic_idea
     }
-    return render(request, 'inspirational_quotes/quotes.html')
+    return render(request, 'inspirational_quotes/quotes.html', context)
