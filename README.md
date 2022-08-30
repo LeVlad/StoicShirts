@@ -222,6 +222,13 @@ python3 manage.py runserver
 
 # 8.Credits #
 
+# References #
+
+1. https://docs.djangoproject.com/en/4.1/d
+2. https://stackoverflow.com/
+3. [https://github.com/ckz8780](https://github.com/ckz8780/boutique_ado_v1)
+4. https://getbootstrap.com/
+5. https://www.w3schools.com/
 
 ## Content ##
 
