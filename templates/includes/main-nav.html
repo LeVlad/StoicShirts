@@ -12,11 +12,11 @@
             <a class="nav-link" href="{% url 'home' %}">Home</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+            <a class="nav-link dropdown-toggle" href="#" id="products-menu-link" role="button"
               data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Products
             </a>
-            <div class="products-dropdown dropdown-menu" aria-labelledby="navbarDropdown">
+            <div class="products-dropdown dropdown-menu" aria-labelledby="all products dropdown menu">
             <a href="{% url 'products' %}?sort=price&direction=asc" class="dropdown-item">By Price</a>
             <a href="{% url 'products' %}?sort=rating&direction=desc" class="dropdown-item ">By Rating</a>
             <a href="{% url 'products' %}?sort=category&direction=asc" class="dropdown-item ">By Category</a>
@@ -32,11 +32,11 @@
             </form>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+            <a class="nav-link dropdown-toggle" href="#" id="categories-menu-link" role="button"
               data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Categories
             </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <div class="dropdown-menu" aria-labelledby="categories dropdown menu">
             <a href="{% url 'products' %}?category=men_shirts" class="dropdown-item">Men Shirts</a>
             <a href="{% url 'products' %}?category=women_shirts" class="dropdown-item ">Women Shirts</a>
             <a href="{% url 'products' %}?category=unisex_shirts" class="dropdown-item ">Unisex Shirts</a>
@@ -47,11 +47,11 @@
           </div>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+            <a class="nav-link dropdown-toggle" href="#" id="philosophers-menu-link" role="button"
               data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Philosophers
             </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <div class="dropdown-menu" aria-labelledby="philosophers dropdown menu">
             <a href="{% url 'products' %}?philosopher=arthur_schopenhauer" class="dropdown-item">Arthur Schopenhauer</a>
             <a href="{% url 'products' %}?philosopher=seneca" class="dropdown-item ">Seneca</a>
             <a href="{% url 'products' %}?philosopher=marcus_aurelius" class="dropdown-item ">Marcus Aurelius</a>
@@ -66,11 +66,11 @@
               <a class="nav-link" href="{% url 'subscribe' %}">Subscribe</a>
             </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+            <a class="nav-link dropdown-toggle" href="#" id="my-account-menu-link" role="button"
               data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               My Account
             </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <div class="dropdown-menu" aria-labelledby="authenticated dropdown menu">
               {% if request.user.is_authenticated %}
               {% if request.user.is_superuser %}
               <a href="{% url 'add_product' %}" class="dropdown-item">Product Management</a>
@@ -101,7 +101,10 @@
       </div>
       </div>
     </nav>
+    </header>
     <div id="delivery-banner" class="row text-center">
       <div class="col bg-success text-black">
-          <h4 class="logo-font my-1">Free delivery on orders over £{{ free_delivery_threshold }}!</h4>                
-      </div>    
+          <h4 class="logo-font my-1">Free delivery on orders over £{{ free_delivery_threshold }}!</h4>
+      </div>
+    </div>
+      
