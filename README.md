@@ -3,7 +3,9 @@ A Django created e-commerce site for selling shirts with stoic quotations on the
 
 # Table of Contents #
 
-1. Design and Market research
+1. Design
+1.1. Bussiness Model
+1.2. Market Research
 2. User Stories
 3. Functionality
 4. Technologies Used
@@ -14,11 +16,7 @@ A Django created e-commerce site for selling shirts with stoic quotations on the
 
 
 
-# 1. Design and Market Research #
-
-
-During the research for the business model or idea I found that the keywords "stoic" and "quotes" were very sought after and had high organic values especially in the United States.
-![Keyword Search](https://user-images.githubusercontent.com/88729876/187352948-2fc48b72-edda-4383-b25f-0c8d6ddde93c.jpg)
+# 1. Design #
 
 The site is made up of 7 page options displayed on a horizontal navbar:
  - Home
@@ -33,6 +31,31 @@ The site is made up of 7 page options displayed on a horizontal navbar:
 
 
 The initial design of StoicShirts was meant to be slightly different as I wanted to have the navbar spread out  in the 4 corners of the page and in the middle would site the shirt logo.
+
+## 1.1. Business Model ##
+
+The selected business model for StoicShirts22 is a B2C model in which direct contact can be made by the customer throught the website and purchase the offered products.
+
+The delivery framework used to satisfy customer requests is drop-shipping type where the customers order the products that we upload for our manufacturers but the stocking, delivering and standards upkeep will rely on third parties which is why the customer service department will be set-up so as any order can be tracked, if delivered damaged, will be replaced and rewards offered to multiple purchasess (i.e. massive price drop and extra products added as bonus to free delivery)
+
+
+
+## 1.2  Market Research ##
+
+During the research for the business model or idea I found that the keywords "stoic" and "quotes" were very sought after and had high organic values especially in the United States.
+
+![Keyword Search](https://user-images.githubusercontent.com/88729876/187352948-2fc48b72-edda-4383-b25f-0c8d6ddde93c.jpg)
+
+After researching some related keywords have found that the most trending combination relating to philosophers and shirt were a mix of “seneca “, “plato “, "quotes" and "shirts". 
+![seneca worldwide trends 2](https://user-images.githubusercontent.com/88729876/192107676-8e272ad7-5c5f-4ecc-baf9-6bc58846cf16.jpg)
+![stoic google trends](https://user-images.githubusercontent.com/88729876/192107699-da41d5bf-d57e-4783-a22f-1450cbd51165.jpg)
+
+![shirts google trends 2](https://user-images.githubusercontent.com/88729876/192107682-685380ad-e4e0-4b7b-8b14-1562c0fa4aeb.jpg)
+
+Compared to the rest of the keywords,“seneca” had a massive increase combined with other keyword searches and ”plato” as well saw a great increase over the last 5 years. Seeing this upward trend I decided once finished I would use google’s keyword planner to see what would be the site’s potential. 
+
+Using Google’s Forecast option we can see that an average of £600+ could be made only using advertisements strategically placed on the site.
+![image](https://user-images.githubusercontent.com/88729876/192110241-ae66320c-4a07-4647-92b8-6809111e965d.png)
 
 
 # 2. User Stories #
