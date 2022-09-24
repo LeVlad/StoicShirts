@@ -9,7 +9,7 @@ body {
 }
 
 .delivery-banner{
-    position: fixed;
+    position:fixed;
 }
 
 .main-logo-link {
@@ -165,4 +165,17 @@ body {
            background: none; 
                   }
       }
+  }
+
+  /*------------ Footer ----------- */
+
+  .validator, .privacy{
+    display: block;
+    text-align: center;
+  }
+.privacy{
+    background-color: forestgreen;
+}
+  .fab{
+    color:forestgreen;
   }
