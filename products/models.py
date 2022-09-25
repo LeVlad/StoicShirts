@@ -27,14 +27,20 @@ class Philosopher(models.Model):
 
 
 class Product(models.Model):
-    category = models.ForeignKey('Category', null=True, blank=True, on_delete=models.SET_NULL)
-    philosopher = models.ForeignKey('Philosopher', null=True, blank=True, on_delete=models.SET_NULL)
+    category = models.ForeignKey(
+        'Category', null=True, blank=True, on_delete=models.SET_NULL
+        )
+    philosopher = models.ForeignKey(
+        'Philosopher', null=True, blank=True, on_delete=models.SET_NULL
+        )
     sku = models.CharField(max_length=254, null=True, blank=True)
     name = models.CharField(max_length=254)
     has_sizes = models.BooleanField(default=False, null=True, blank=True)
     description = models.TextField()
     price = models.DecimalField(max_digits=6, decimal_places=2)
-    rating = models.DecimalField(max_digits=6, decimal_places=2, null=True, blank=True)
+    rating = models.DecimalField(
+        max_digits=6, decimal_places=2, null=True, blank=True
+    )
     image = models.ImageField(null=True, blank=True)
 
     def __str__(self):
@@ -45,7 +51,9 @@ class Review(models.Model):
     product = models.ForeignKey('Product', on_delete=models.CASCADE)
     user = models.ForeignKey('profiles.UserProfile', on_delete=models.CASCADE)
     content = models.TextField(blank=True, null=True)
-    rating = models.DecimalField(max_digits=6, decimal_places=2, null=True, blank=True)
+    rating = models.DecimalField(
+        max_digits=6, decimal_places=2, null=True, blank=True
+        )
     date_added = models.DateTimeField(auto_now_add=True)
 
     def __str__(self):

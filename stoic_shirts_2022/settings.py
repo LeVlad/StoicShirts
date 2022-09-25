@@ -53,14 +53,12 @@ INSTALLED_APPS = [
     'profiles',
     'contact',
     'inspirational_quotes',
-    
 
     # Other
     'crispy_forms',
     'django_countries',
     'storages',
 ]
-
 
 
 MIDDLEWARE = [

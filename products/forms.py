@@ -18,7 +18,8 @@ class ProductForm(forms.ModelForm):
         friendly_names = [(c.id, c.get_friendly_name()) for c in categories]
 
         philosophers = Philosopher.objects.all()
-        p_friendly_names = [(p.id, p.get_friendly_name()) for p in philosophers]
+        p_friendly_names = [
+            (p.id, p.get_friendly_name()) for p in philosophers]
 
         self.fields['philosopher'].choices = p_friendly_names
         for field_name, field in self.fields.items():

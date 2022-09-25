@@ -1,4 +1,4 @@
-from django.shortcuts import (
+from django.shortcuts import (  # importing multiple functions
     render, redirect, reverse,
     HttpResponse, get_object_or_404
 )
@@ -28,7 +28,8 @@ def add_to_bag(request, item_id):
                 bag[item_id]['items_by_size'][size] += quantity
                 messages.success(
                     request,
-                    f'Updated size {size.upper()}{product.name} to quantity to {bag[item_id]["item_by_size"][size]}!')
+                    f'Updated size {size.upper()}{product.name}\
+                         to quantity to {bag[item_id]["item_by_size"][size]}!')
             else:
                 bag[item_id]['items_by_size'][size] = quantity
                 messages.success(
@@ -67,7 +68,8 @@ def adjust_bag(request, item_id):
             bag[item_id]['items_by_size'][size] = quantity
             messages.success(
                 request,
-                f'Updated size {size.upper()} {product.name} to quantity to {bag[item_id]["items_by_size"][size]}!')
+                f'Updated size {size.upper()} {product.name}\
+                     to quantity to {bag[item_id]["items_by_size"][size]}!')
         else:
             del bag[item_id]['items_by_size'][size]
             if not bag[item_id]['items_by_size']:
@@ -101,7 +103,7 @@ def remove_from_bag(request, item_id):
                 bag.pop(item_id)
             messages.success(
                 request,
-                f'Removed size {size.upper()} {product.name} from bag!')
+                f'Removed size {size.upper()}{product.name} from bag!')
         else:
             bag.pop(item_id)
             messages.success(request, f'{product.name} removed successfully!')
@@ -109,6 +111,6 @@ def remove_from_bag(request, item_id):
         request.session['bag'] = bag
         return HttpResponse(status=200)
 
-    except Exception as e:
+    except Exception as e:  # pylint: disable=broad-except
         messages.error(request, f'Error removing item {e}')
         return HttpResponse(status=500)

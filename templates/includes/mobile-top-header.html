@@ -22,7 +22,7 @@
                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             My Account
                         </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <div class="dropdown-menu" aria-labelledby="my-account-menu-link">
                             {% if request.user.is_authenticated %}
                             {% if request.user.is_superuser %}
                             <a href="{% url 'add_product' %}" class="dropdown-item">Product Management</a>
