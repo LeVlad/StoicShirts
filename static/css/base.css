@@ -60,6 +60,9 @@ body {
     margin-left: 5rem;
     
 }
+.margin-top{
+    margin-top: 5.5rem;
+}
 
 /*------------ Buttons ------------ */
 .btt-button {
@@ -173,9 +176,11 @@ body {
     display: block;
     text-align: center;
   }
-.privacy{
-    background-color: forestgreen;
-}
+
   .fab{
     color:forestgreen;
   }
+  .text-black {
+    color:black;
+  }
+ 
