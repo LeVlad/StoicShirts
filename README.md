@@ -178,6 +178,8 @@ Verdict ✅: This test passed and no further corrections are required.
 
 ## 5.3. HTML VALIDATOR WCS ## 
 
+![image](https://user-images.githubusercontent.com/88729876/192369549-f8a9a62b-060e-4d9a-b3eb-983d33112a73.png)
+
 # 6. Issues & Fixes # 
 
 ## 6.1. Issues ##
