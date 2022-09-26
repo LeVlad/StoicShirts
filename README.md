@@ -11,9 +11,9 @@ A Django created e-commerce site for selling shirts with stoic quotations on the
 3. Functionality
 4. Technologies Used
 5. Tests  
-5.1. Lighthouse
-5.2  CSS Validator
-5.3. HTML Validator
+5.1. Lighthouse  
+5.2  CSS Validator  
+5.3. HTML Validator  
 6. Errors and Fixes  
 6.1 Issues  
 7. Deployment  
@@ -168,7 +168,12 @@ Verdict ✅: This test passed and no further corrections are required.
 
 ## 5.1. Lighthouse ##
 
+## Initial report ##  
 ![lighthouse report 1](https://user-images.githubusercontent.com/88729876/187338471-b0c96dda-e5bc-49eb-8bd6-1dda2c7ef462.png)
+
+## Follow up report ##  
+![image](https://user-images.githubusercontent.com/88729876/192377526-c3415f3d-1797-4b04-85b7-1756df08820f.png)
+
 
 
 
