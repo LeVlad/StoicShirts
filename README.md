@@ -6,7 +6,8 @@ A Django created e-commerce site for selling shirts with stoic quotations on the
 
 1. Design  
 1.1. Bussiness Model  
-1.2. Market Research  
+1.2. Market Research
+1.3. Facebook Marketing  
 2. User Stories
 3. Functionality
 4. Technologies Used
@@ -25,17 +26,35 @@ A Django created e-commerce site for selling shirts with stoic quotations on the
 
 The site is made up of 7 page options displayed on a horizontal navbar:  
  - Home  
+ 
+ ![image](https://user-images.githubusercontent.com/88729876/192626316-9f69db30-0201-406f-a5e3-7b81e053f852.png)
+
  - Products can be sorted by price, rating, category and philosopher or all can be selected  
+ 
+ ![image](https://user-images.githubusercontent.com/88729876/192626404-7386cf43-a741-434d-9d08-f9f0b80eb0f5.png)
+
  - Categories can be sorted by every category available or all can be selected  
+ 
+ ![image](https://user-images.githubusercontent.com/88729876/192626544-6856c3f4-7bd7-445f-b21c-8c0dfa275724.png)
+
  - Philosophers can be sorted by 5 philosophers  
+ 
+ ![image](https://user-images.githubusercontent.com/88729876/192626680-8492b7f1-22e3-496d-8097-543fca3da758.png)
+
  - Contact Us  
+ 
+ ![image](https://user-images.githubusercontent.com/88729876/192626728-bdd41497-02e4-4e02-a335-23cc9159ae9b.png)
+
  - Subscribe  
- - My Account has a dropdown of two options "Register" or "Login"  
+ 
+ ![image](https://user-images.githubusercontent.com/88729876/192627056-140de4d9-f3dd-47d5-92a4-0c9448611efb.png)
 
-![Main Page](https://user-images.githubusercontent.com/88729876/187325911-5eec3c5a-1a11-4da4-9b0a-52d43832f6db.jpg)
+ - My Account has a dropdown of two options "Register" or "Login" and once logged in the user can navigate to the profile page 
+ 
+ ![image](https://user-images.githubusercontent.com/88729876/192627274-2634acfa-01e5-4c13-a0e0-0fcce016a7c3.png)
 
 
-The initial design of StoicShirts was meant to be slightly different as I wanted to have the navbar spread out  in the 4 corners of the page and in the middle would site the shirt logo.
+The initial design of StoicShirts was meant to be slightly different as I wanted to have the navbar spread out  in the 4 corners of the page and in the middle would sit the shirt logo.
 
 ## 1.1. Business Model ##
 
@@ -62,6 +81,10 @@ Compared to the rest of the keywords,“seneca” had a massive increase combine
 
 Using Google’s Forecast option we can see that an average of £600+ could be made only using advertisements strategically placed on the site.  
 ![image](https://user-images.githubusercontent.com/88729876/192110241-ae66320c-4a07-4647-92b8-6809111e965d.png)
+
+## 1.3. Facebook Marketing ##
+
+![StoicShirts22 Facebook Mock-up](https://user-images.githubusercontent.com/88729876/192624908-82fb6c37-063e-457b-a09c-8d4fc6cba1f5.png)
 
 
 # 2. User Stories #
