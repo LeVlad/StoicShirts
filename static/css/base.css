@@ -40,7 +40,7 @@ body {
     margin-top: 2rem;
 }
 .delivery-banner{
-    margin-top: 25rem;
+    margin-top: 5rem;
 }
 .navbar-brand {
     text-transform: uppercase;
@@ -172,7 +172,7 @@ body {
 
   /*------------ Footer ----------- */
 
-  .validator, .privacy{
+  #socials,.privacy{
     display: block;
     text-align: center;
   }
