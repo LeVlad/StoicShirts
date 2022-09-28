@@ -163,12 +163,12 @@ def delete_product(request, product_id):
 
 def add_review(request, product_id):
     """ A view to add a review """
-    product = get_object_or_404(Product, pk=product_id)
+
     if request.method == 'POST' and request.user.is_authenticated:
-        rating = request.POST.get('rating', 2)
+        product = get_object_or_404(Product, pk=product_id)
         content = request.POST.get('content', '')
         review = Review.objects.create(product=product_id,
                                        user=request.user, content=content)
-        return render(request, product_id, review)
+        return render(request, product, review)
     else:
         return render(reverse, 'product_details')
