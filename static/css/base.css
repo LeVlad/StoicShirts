@@ -189,3 +189,22 @@ body {
     color:black;
   }
  
+/*------------ Mailchimp ----------- */
+  #mc_embed_signup{
+    background:#fff;
+     clear:left; 
+     font:14px Helvetica,Arial,sans-serif;
+     width:600px;
+    }
+    #bot-signup-prevention{
+        position: absolute;
+         left: -5000px;
+    }
+
+    #mce-error-responses{
+        display:none;
+
+    }
+    #mce-success-response{
+        display:none;
+    }
