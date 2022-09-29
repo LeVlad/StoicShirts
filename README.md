@@ -7,7 +7,7 @@ A Django created e-commerce site for selling shirts with stoic quotations on the
 1. Design  
 1.1. Bussiness Model  
 1.2. Market Research
-1.3. Facebook Marketing  
+1.3. Marketing  
 2. User Stories
 3. Functionality
 4. Technologies Used
@@ -51,7 +51,7 @@ The site is made up of 7 page options displayed on a horizontal navbar:
 
  - My Account has a dropdown of two options "Register" or "Login" and once logged in the user can navigate to the profile page 
  
- ![image](https://user-images.githubusercontent.com/88729876/192627274-2634acfa-01e5-4c13-a0e0-0fcce016a7c3.png)
+ ![image](https://user-images.githubusercontent.com/88729876/192914540-1a993b86-f338-44a5-a567-8834f53b18eb.png)
 
 
 The initial design of StoicShirts was meant to be slightly different as I wanted to have the navbar spread out  in the 4 corners of the page and in the middle would sit the shirt logo.
@@ -61,6 +61,55 @@ The initial design of StoicShirts was meant to be slightly different as I wanted
 The selected business model for StoicShirts22 is a B2C model in which direct contact can be made by the customer through the website and purchase the offered products.
 
 The delivery framework used to satisfy customer requests is the drop-shipping type where the customers order the products that we upload from our manufacturers but the stocking, delivering and standards upkeep will rely on third parties which is why the customer service department will be set-up so as any order can be tracked, if delivered damaged, will be replaced and rewards offered to multiple purchasess (i.e. massive price drop and extra products added as bonus to free delivery)
+
+![image](https://user-images.githubusercontent.com/88729876/192914676-733996ca-ac90-4b01-b729-182100b3aa2c.png)
+
+Heavy advertising required to attract customers.
+High investments in terms of hardware/software.
+Support or good customer care service.
+
+Shopping Procedure
+
+Like all B2C model the following purchasig procedure applies :
+
+A user  
+
+## 1. Determines the requirement. ## 
+
+![image](https://user-images.githubusercontent.com/88729876/192915190-5399877b-f99e-4471-9027-647b4e8723c1.png)
+
+---
+
+## 2. Searches available items on the website meeting the requirment. ##
+
+![image](https://user-images.githubusercontent.com/88729876/192915316-47eccb72-4bc3-40ce-85c9-c891a80744aa.png)
+
+---
+
+## 3. Places the order. ##
+
+![image](https://user-images.githubusercontent.com/88729876/192916289-2add48b6-781a-4cfa-8c77-e0fe5a9d977d.png)
+
+---
+
+
+## 4. Pays the bill. ##
+
+![image](https://user-images.githubusercontent.com/88729876/192916352-e3e82b5c-d575-4d77-8bce-346e7bfa808c.png)
+ 
+ ---
+ 
+## 5. Receives the delivered item and review/inspect them. ##
+
+---
+
+## 6. Consults the vendor to get after service support or returns the product if not satisfied with the delivered product. ##
+
+![image](https://user-images.githubusercontent.com/88729876/192916908-c910fed8-e9d7-45b0-8153-9bc1ed4dcba2.png)
+
+
+---
+
 
 
 ## 1.2  Market Research ##
@@ -82,9 +131,18 @@ Compared to the rest of the keywords,“seneca” had a massive increase combine
 Using Google’s Forecast option we can see that an average of £600+ could be made only using advertisements strategically placed on the site.  
 ![image](https://user-images.githubusercontent.com/88729876/192110241-ae66320c-4a07-4647-92b8-6809111e965d.png)
 
-## 1.3. Facebook Marketing ##
+## 1.3. Marketing ##
+
+Like all e-commerce websites, a decent investment will be required in SEO improvement and website accessibility along with e-mail marketing campaings and a newsletter implementation.
+
+### Facebook ###
 
 ![StoicShirts22 Facebook Mock-up](https://user-images.githubusercontent.com/88729876/192624908-82fb6c37-063e-457b-a09c-8d4fc6cba1f5.png)
+
+#### Newsletter ###
+
+![image](https://user-images.githubusercontent.com/88729876/192916731-89c20591-537d-4f5d-87a8-ce327f7f6c8d.png)
+
 
 
 # 2. User Stories #
@@ -110,16 +168,83 @@ Admin
 
 On StoicShirts any user can:
 
-- access the main pages
-- browse the shirts
-- add to a check-out bag
-- delete from the check-out
-- make purchase
-- create an account
-- view orders
-- subscribe tot the newsletter
-- browse reviews
-- leave a review
+- Access the main pages
+
+ Access to the products, contact page, subscribe as well as register or login can be made from the main navigation bar that can be found on all pages.
+
+![image](https://user-images.githubusercontent.com/88729876/192919306-62042dd5-ae08-4a9a-a00a-5a1d86701833.png)
+
+
+
+- Browse the shirts  
+
+The user can see all the products and sort them by price, category or philosopher.
+
+![image](https://user-images.githubusercontent.com/88729876/192919198-3c54d39d-4ecc-400b-88fc-cc301ebd67bc.png)
+
+
+
+- Add to a check-out bag  
+
+A user can add a product to the shopping bag and also update it with the quantity needed
+
+![image](https://user-images.githubusercontent.com/88729876/192917432-2ed11b8b-dc0b-403b-a083-5877da200171.png)
+
+
+- Delete from the check-out
+
+A user can delete the desired product or reduce the quantity.
+
+
+![image](https://user-images.githubusercontent.com/88729876/192917375-377bcbb0-4373-44d9-afb2-1bd278e99e64.png)
+
+
+- Make purchase  
+
+A user can make use of the secure payment system without any issues.
+
+
+![image](https://user-images.githubusercontent.com/88729876/192917583-b1890cc5-1602-4e94-bd00-5534276d8692.png)
+
+
+- Create an account
+
+A user can create an account should they desire to.
+
+
+![image](https://user-images.githubusercontent.com/88729876/192917759-f697b786-53c9-4025-ade9-cc8cdcfb4cae.png
+
+---
+
+![image](https://user-images.githubusercontent.com/88729876/192918030-97c1c0f2-0814-44cd-a0af-2b5702b1864e.png)
+
+---
+
+![image](https://user-images.githubusercontent.com/88729876/192918138-a0e0db09-2bae-4642-9720-d0560a476ffc.png)
+
+---
+
+
+- Receive e-mail confimation  
+
+![image](https://user-images.githubusercontent.com/88729876/192917873-2a94fbb9-f2ab-4607-8a82-9fb401005b1d.png)
+
+
+- View orders
+
+Having an account gives the opportunity to check past orders
+
+
+![image](https://user-images.githubusercontent.com/88729876/192918706-844f35b8-14a8-4592-aeae-e30677d210f9.png)
+
+
+- Subscribe tot the newsletter
+
+To keep in touch with the lastest news and products, users can subscribe to the newsletter.
+
+![image](https://user-images.githubusercontent.com/88729876/192918886-ecc12514-01d8-421d-9096-825a703503b2.png)
+
+
 
 # 4. Technologies Used #
 
@@ -392,6 +517,8 @@ python3 manage.py runserver
 3. [https://github.com/ckz8780](https://github.com/ckz8780/boutique_ado_v1)  
 4. https://getbootstrap.com/  
 5. https://www.w3schools.com/  
+6. https://www.tutorialspoint.com/e_commerce/e_commerce_b2c_mode.htm
+
 
 ## Content ##
 
