@@ -158,11 +158,21 @@ User
 - As a user I can rate and leave a review
 - As a user I can browse so that I can view all the products
 
-Admin
-- As an admin I can login so that I can update products, approve reviews, check details of orders
-- As an admin I can login so that I can check and update the account details
+![image](https://user-images.githubusercontent.com/88729876/192935512-97255560-bf3e-4a08-a1cb-13bdf06a9cad.png)
 
-![User Stories 1](https://user-images.githubusercontent.com/88729876/187320609-b1de0d92-6cb9-44f8-bbbe-8e6a83b02bbc.jpg)
+
+
+
+Admin
+- As an admin I can login so that I can update products.
+- As an admin I can login so that I can check and update the account details
+- As an admin I can login so that I can check and update the order details.
+- As an admin I can login so that I can check and approve reviews
+
+![image](https://user-images.githubusercontent.com/88729876/192935453-73b73a24-06fc-487d-9834-2184be05bef8.png)
+
+
+
 
 # 3. Functionality #
 
