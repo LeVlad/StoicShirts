@@ -199,12 +199,11 @@ body {
     #bot-signup-prevention{
         position: absolute;
          left: -5000px;
+         display: none;
     }
 
-    #mce-error-responses{
-        display:none;
 
-    }
-    #mce-success-response{
-        display:none;
-    }
+    #mce-error-responses, #mce-responses, #mce-success-responses{
+            display:none;
+        }
+        
