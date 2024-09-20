@@ -151,4 +151,4 @@ webencodings==0.5.1
 websocket-client==1.8.0
 wheel==0.44.0
 whitenoise==6.0.0
-torch==2.4.0+cpu
+torch==2.3.0+cpu
