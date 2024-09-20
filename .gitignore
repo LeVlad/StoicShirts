@@ -4,3 +4,4 @@ __pycache__
 env.py
 ./migrations/*.py
 .vs-code/
+pg_hba.conf
