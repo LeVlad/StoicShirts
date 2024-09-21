@@ -44,7 +44,6 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'StoicShirts22',
     'allauth',
-    'allauth.account',
     'allauth.socialaccount',
     'home',
     'products',
@@ -71,7 +70,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'whitenoise.middleware.WhiteNoiseMiddleware',
-    'allauth.account.middleware.AccountMiddleware',
+    
     
     
 ]
@@ -136,7 +135,8 @@ WSGI_APPLICATION = 'stoic_shirts_2022.wsgi.application'
 
 if 'DATABASE_URL' in os.environ:
     DATABASES = {
-        'default': dj_database_url.config(conn_max_age=600, ssl_require=True)
+        'default': dj_database_url.config(
+                default=os.getenv('DATABASE_URL'))
         
     }
 else:
