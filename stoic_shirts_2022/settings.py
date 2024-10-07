@@ -78,7 +78,7 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'stoic_shirts_2022.urls'
 
-CRISPY_TEMPLATES_PACK = 'bootstrap4'
+CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
 TEMPLATES = [
     {
