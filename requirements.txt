@@ -5,6 +5,7 @@ dj-database-url
 Django
 django-allauth
 django-countries
+crispy-bootstrap4==2024.10
 django-crispy-forms
 django-storages
 gunicorn
